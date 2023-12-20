@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+declare var $: any;
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
