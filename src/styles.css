@@ -1,1 +1,176 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Lato';
+    src: url('../src/assets/fonts/Lato-Black.eot');
+    src: url('../src/assets/fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Lato-Black.woff2') format('woff2'), url('../src/assets/fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../src/assets/fonts/Lato-Bold.eot');
+    src: url('../src/assets/fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Lato-Bold.woff2') format('woff2'), url('../src/assets/fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../src/assets/fonts/Lato-Light.eot');
+    src: url('../src/assets/fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Lato-Light.woff2') format('woff2'), url('../src/assets/fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../src/assets/fonts/Lato-Regular.eot');
+    src: url('../src/assets/fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Lato-Regular.woff2') format('woff2'), url('../src/assets/fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url('../src/assets/fonts/Rubik-Bold.eot');
+    src: url('../src/assets/fonts/Rubik-Bold.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Rubik-Bold.woff2') format('woff2'), url('../src/assets/fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../src/assets/fonts/Rubik-Black.eot');
+    src: url('../src/assets/fonts/Rubik-Black.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Rubik-Black.woff2') format('woff2'), url('../src/assets/fonts/Rubik-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../src/assets/fonts/Rubik-ExtraBold.eot');
+    src: url('../src/assets/fonts/Rubik-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Rubik-ExtraBold.woff2') format('woff2'), url('../src/assets/fonts/Rubik-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../src/assets/fonts/Rubik-Light.eot');
+    src: url('../src/assets/fonts/Rubik-Light.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Rubik-Light.woff2') format('woff2'), url('../src/assets/fonts/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../src/assets/fonts/Rubik-Regular.eot');
+    src: url('../src/assets/fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Rubik-Regular.woff2') format('woff2'), url('../src/assets/fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../src/assets/fonts/Rubik-SemiBold.eot');
+    src: url('../src/assets/fonts/Rubik-SemiBold.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Rubik-SemiBold.woff2') format('woff2'), url('../src/assets/fonts/Rubik-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../src/assets/fonts/Rubik-Medium.eot');
+    src: url('../src/assets/fonts/Rubik-Medium.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Rubik-Medium.woff2') format('woff2'), url('../src/assets/fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
+    --main-heading-font: "Lato";
+    --second-heading: "Rubik";
+    --text-font: "Rubik";
+    --btn-color: "#37C8AE";
+
+}
+body {
+    background-color: #040A17;
+    color: #fff;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.relative {
+    position: relative;
+}
+.main-heading {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.second-heading {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.primery-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.cdk-btn-green {
+    width: 160px;
+    height: 50px;
+    background-color: #37C8AC;
+    color: #000;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    text-transform: capitalize;
+    font-family: var(--second-heading);
+}
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+    
+}
