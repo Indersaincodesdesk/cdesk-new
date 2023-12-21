@@ -1,5 +1,7 @@
-.footer-all-wrapper {
+.footer_main_wrap {
     background: linear-gradient(100deg, rgba(12, 55, 48, 0.50) 0%, #000 99.17%);
+}
+.footer-all-wrapper {
     padding: 84px 30px 57px 30px;
 }
 .footer_newsletter_wrap {
@@ -170,7 +172,7 @@
         flex-direction: column;
     }
     .footer-all-wrapper {
-        padding: 26.9px 20px 23px 20px;
+        padding: 26.9px 20px 0px 20px;
     }
     .footer_newsletter_wrap {
         padding: 40px 45px;
@@ -225,5 +227,58 @@
     }
     .mobile .footer_mobile .footer-icon .icon_wrap .icon-list svg {
         display: block;
+    }
+    .footer_mobile_menu_wrap .footer-mobile-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 321px;
+        margin: 0 auto;
+    }
+    .footer_mobile_menu_wrap .footer-mobile-menu .mobile-list a,
+    .footer-mobile-menu-second .mobile-list a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-transform: capitalize;
+        font-family: var(--second-heading);
+    }
+    .footer_mobile_menu_wrap .footer-mobile-menu .mobile-list,
+    .footer-mobile-menu-second .mobile-list {
+        list-style: none;
+    }
+    .footer-mobile-menu-second {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        max-width: 321px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .footer_mobile_menu_wrap {
+        border-top: 1px solid #444e5933;
+        border-bottom: 1px solid #444e5933;
+        width: 100%;
+        padding: 25px 20px;
+    }
+    .mobile_copy_text {
+        width: 100%;
+        margin-top: 22px;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .mobile_copy_text p {
+        font-family: var(--second-heading);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        opacity: 0.75;
     }
 }
