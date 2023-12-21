@@ -1,0 +1,229 @@
+.footer-all-wrapper {
+    background: linear-gradient(100deg, rgba(12, 55, 48, 0.50) 0%, #000 99.17%);
+    padding: 84px 30px 57px 30px;
+}
+.footer_newsletter_wrap {
+    width: 100%;
+    max-width: 1074px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #040A17;
+    padding: 75px 80px;
+    border-radius: 10px;
+    margin-bottom: 67px;
+}
+.footer_newsletter_wrap .newsletter_text .text {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: #fff;
+    font-family: var(--main-heading-font);
+}
+.newsletter_input_wrap form input[type="email"] {
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    background: #FFF;
+    border: none;
+    padding-left: 40px;
+}
+.newsletter_input_wrap form .cdk-btn-green {
+    border: none;
+    width: 180px;
+    margin-left: 24px;
+}
+.footer_menu_icon_wrap {
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.footer_menu_icon_wrap .footer-icon .icon_wrap .icon-list,
+.footer_menu_icon_wrap .footer-menu .menu-wrap .menu-list {
+    list-style: none;
+}
+.footer_menu_icon_wrap .footer-menu .menu-wrap .menu-list:not(:last-child) {
+    margin-right: 65px;
+}
+.footer_menu_icon_wrap .footer-icon .icon_wrap .icon-list:not(:last-child) {
+    margin-right: 73px;
+}
+.footer_menu_icon_wrap .footer-icon .icon_wrap .icon-list a,
+.footer_menu_icon_wrap .footer-icon .icon_wrap .icon-list a svg {
+    display: block;
+}
+.footer_menu_icon_wrap .footer-menu .menu-wrap .menu-list a {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: var(--second-heading);
+    display: block;
+}
+.footer_last_menu {
+    padding: 112px 30px 0 30px;
+}
+.footer_last_menu .footer_copy_wrap {
+    width: 100%;
+    max-width: 268px;
+}
+.footer_last_menu .footer_copy_wrap .copy_text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--second-heading);
+    opacity: 0.75;
+}
+.footer_last_menu .footer_logo_wrap {
+    width: 100%;
+    max-width: 250px;
+}
+.footer_last_menu .footer_logo_wrap img {
+    max-width: 250px;
+    display: block;
+}
+.footer_term_menu .term_menu {
+    width: 100%;
+    max-width: 233px;
+}
+.footer_term_menu .term_menu .term_list {
+    list-style: none;
+}
+.footer_term_menu .term_menu .term_list:not(:last-child) {
+    margin-right: 30px;
+}
+.footer_term_menu .term_menu .term_list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--second-heading);
+}
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    .newsletter_input_wrap form input[type="email"] {
+        width: 310px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .newsletter_input_wrap form input[type="email"] {
+        width: 250px;
+        height: 40px;
+    }
+    .newsletter_input_wrap form .cdk-btn-green {
+        width: 130px;
+        height: 40px;
+    }
+    .footer_newsletter_wrap {
+        padding: 55px 40px;
+    }
+    .footer_newsletter_wrap .newsletter_text .text {
+        font-size: 20px;
+    }
+    .footer_menu_icon_wrap .footer-menu .menu-wrap .menu-list:not(:last-child) {
+        margin-right: 25px;
+    }
+    .footer_menu_icon_wrap .footer-icon .icon_wrap .icon-list:not(:last-child) {
+        margin-right: 30px;
+    }
+    .footer_last_menu .footer_logo_wrap {
+        width: 100%;
+        max-width: 200px;
+    }
+    .footer_newsletter_wrap {
+        margin-bottom: 50px;
+    }
+    .footer_last_menu .footer_logo_wrap img {
+        max-width: 200px;
+        display: block;
+    }
+    .footer_last_menu .footer_copy_wrap {
+        width: 100%;
+        max-width: 200px;
+    }
+    .footer_last_menu .footer_copy_wrap .copy_text {
+        font-size: 12px;
+    }
+    .footer_term_menu .term_menu .term_list:not(:last-child) {
+        margin-right: 15px;
+    }
+    .footer_term_menu .term_menu .term_list a{
+        font-size: 12px;
+    }
+    .footer_last_menu {
+        padding: 62px 0px 0 0px;
+    }
+    .footer-all-wrapper {
+        padding: 64px 20px 37px 20px;
+    }
+    .footer_menu_icon_wrap {
+        padding: 0 0px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .newsletter_input_wrap form.flex,
+    .footer_newsletter_wrap.flex {
+        flex-direction: column;
+    }
+    .footer-all-wrapper {
+        padding: 26.9px 20px 23px 20px;
+    }
+    .footer_newsletter_wrap {
+        padding: 40px 45px;
+        margin-bottom: 40px;
+    }
+    .footer_menu_icon_wrap.flex.container, .container.flex.footer_last_menu.space-between {
+        flex-direction: column;
+    }
+    .newsletter_input_wrap {
+        width: 100%;
+    }
+    .newsletter_input_wrap form input[type="email"] {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        background: #D9D9D9;
+        border: none;
+        padding-left: 15px;
+        margin: 15px 0;
+    }
+    .newsletter_input_wrap form .cdk-btn-green {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .footer_newsletter_wrap .newsletter_text .text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .footer_mobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile .footer_mobile .footer_logo_wrap img {
+        max-width: 171px;
+        display: block;
+    }
+    .mobile .footer_mobile .footer_logo_wrap {
+        margin-bottom: 20px;
+    }
+    .mobile .footer_mobile .footer-icon {
+        margin-bottom: 40px;
+    }
+    .mobile .footer_mobile .footer-icon .icon_wrap .icon-list {
+        list-style: none;
+    }
+    .mobile .footer_mobile .footer-icon .icon_wrap .icon-list:not(:last-child) {
+        margin-right: 20px;
+    }
+    .mobile .footer_mobile .footer-icon .icon_wrap .icon-list svg {
+        display: block;
+    }
+}
