@@ -145,6 +145,9 @@ body {
     display: flex;
     align-items: center;
 }
+.space-between {
+    justify-content: space-between;
+}
 .wrap {
     flex-wrap: wrap;
 }
@@ -165,6 +168,9 @@ body {
     text-transform: capitalize;
     font-family: var(--second-heading);
 }
+.mobile {
+    display: none;
+}
 
 
 
@@ -172,5 +178,10 @@ body {
 
 
 @media only screen and (max-width:767px) {
-    
+    .desktop{
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
 }
