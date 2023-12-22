@@ -9,7 +9,7 @@ export class HomepageComponent {
   caseConfig = {
     "slidesToShow": 1,
     "slidesToScroll": 1,
-    "dots": true,
+    "dots": false,
     "arrows": false,
     "infinite": true,
     "autoplay": true,
@@ -34,32 +34,14 @@ export class HomepageComponent {
       "pauseOnHover":false, 
       "variableWidth": true,     
       responsive: [
-        // {
-        //   breakpoint: 1025,
-        //   settings: {
-        //     slidesToShow: 1,
-        //     slidesToScroll: 1,
-        //     centerPadding: '0px',
-        //   }
-        // },
-        // {
-        //   breakpoint: 600,
-        //   settings: {
-        //     slidesToShow: 1,
-        //     slidesToScroll: 1,
-        //     centerPadding: '40px',
-            
-        //   }
-        // },
-        // {
-        //   breakpoint: 480,
-        //   settings: {
-        //     slidesToShow: 1,
-        //     slidesToScroll: 1,
-        //     centerPadding: '80px',
-
-        //   }
-        // },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerPadding: '0px',
+          }
+        }
        
       ]    
   };
