@@ -8,5 +8,16 @@ $(document).ready(function() {
         $(this).toggleClass("on");
         $(".tabcontent").slideToggle();
     });
+    $(document).on('click', ".service_tab-heading", function() {
+        if ($(this).hasClass('active')) {
+            $(this).siblings('.service_tabcontent').slideUp();
+            $(this).removeClass('active');
+        } else {
+            $('.service_tabcontent').slideUp();
+            $('.service_tab-heading').removeClass('active');
+            $(this).siblings('.service_tabcontent').slideDown();
+            $(this).toggleClass('active');
+        }
+    });
 
 });
