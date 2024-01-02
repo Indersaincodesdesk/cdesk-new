@@ -192,22 +192,32 @@ body {
 .our_work_section {
     padding: 100px 0px;
 }
+.blogs-section {
+    padding: 129px 0 215px;
+}
 .service_section .service_all_wrap .service-head.flex,
-.our_work_section .our_work_all_wrap .service-head.flex {
+.our_work_section .our_work_all_wrap .service-head.flex,
+.blogs-section .our_work_all_wrap .service-head.flex {
     align-items: flex-end;
     column-gap: 30px;
 }
+.blogs-section .our_work_all_wrap .service-head {
+    margin-bottom: 60px;
+}
 .service_section .service_all_wrap,
-.our_work_section .our_work_all_wrap {
+.our_work_section .our_work_all_wrap,
+.blogs-section .our_work_all_wrap {
     padding: 0 30px;
 }
 .service_section .service_all_wrap .service-head .service-titel,
-.our_work_section .our_work_all_wrap .service-head .service-titel {
+.our_work_section .our_work_all_wrap .service-head .service-titel,
+.blogs-section .our_work_all_wrap .service-head .service-titel {
     width: 100%;
     max-width: 519px;
 }
 .service_section .service_all_wrap .service-head .service-titel h3,
-.our_work_section .our_work_all_wrap .service-head .service-titel h3 {
+.our_work_section .our_work_all_wrap .service-head .service-titel h3,
+.blogs-section .our_work_all_wrap .service-head .service-titel h3 {
     color: #37C8AE;
     font-family: var(--second-heading);
     font-size: 20px;
@@ -218,7 +228,8 @@ body {
     margin-bottom: 15px;
 }
 .service_section .service_all_wrap .service-head .service-titel h2,
-.our_work_section .our_work_all_wrap .service-head .service-titel h2 {
+.our_work_section .our_work_all_wrap .service-head .service-titel h2,
+.blogs-section .our_work_all_wrap .service-head .service-titel h2 {
     color: #FFF;
     font-family: var(--main-heading-font);
     font-size: 45px;
@@ -227,12 +238,14 @@ body {
     line-height: normal;
 }
 .service_section .service_all_wrap .service-head .service-text,
-.our_work_section .our_work_all_wrap .service-head .service-text {
+.our_work_section .our_work_all_wrap .service-head .service-text,
+.blogs-section .our_work_all_wrap .service-head .service-text {
     width: 100%;
     max-width: 817px;
 }
 .service_section .service_all_wrap .service-head .service-text p,
-.our_work_section .our_work_all_wrap .service-head .service-text p {
+.our_work_section .our_work_all_wrap .service-head .service-text p,
+.blogs-section .our_work_all_wrap .service-head .service-text p {
     color: #FFF;
     font-family: var(--second-heading);
     font-size: 18px;
@@ -406,6 +419,37 @@ body {
     margin: 0 auto;
     margin-top: 35px;
 }
+.blogs-section .our_work_all_wrap .blog_cards_wrapper {
+    column-gap: 20px;
+}
+.blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-img {
+    width: 100%;
+    border: 1px solid #37C8AE;
+    border-radius: 5px;
+}
+.blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-img img {
+    width: 100%;
+    display: block;
+}
+.blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-title-text h3 {
+    color: #37C8AE;
+    font-family: var(--second-heading);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 20px 0 15px;
+}
+.blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-title-text p {
+    color: #FFF;
+    font-family: var(--second-heading);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    width: 100%;
+    max-width: 402px;
+}
 
 
 
@@ -416,10 +460,14 @@ body {
     .service_body_wrap .service-body .service-list .list-text {
         max-width: 520px;
     }
+    .blogs-section {
+        padding: 100px 0 150px;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
     .service_section .service_all_wrap .service-head.flex,
-    .our_work_section .our_work_all_wrap .service-head.flex {
+    .our_work_section .our_work_all_wrap .service-head.flex,
+    .blogs-section .our_work_all_wrap .service-head.flex {
         align-items: flex-start;
         column-gap: 20px;
     }
@@ -434,7 +482,9 @@ body {
     .service_body_wrap .service-body .service-list .list-head:hover {
         font-size: 28px;
     }
-    .service_section, .our_work_section {
+    .service_section,
+    .our_work_section,
+    .blogs-section {
         padding: 60px 0px;
     }
 }
@@ -459,25 +509,30 @@ body {
         padding: 55px 0px;
     }
     .service_section .service_all_wrap,
-    .our_work_section .our_work_all_wrap {
+    .our_work_section .our_work_all_wrap,
+    .blogs-section .our_work_all_wrap {
         padding: 0 20px;
     }
     .service_section .service_all_wrap .service-head.flex,
-    .our_work_section .our_work_all_wrap .service-head.flex {
+    .our_work_section .our_work_all_wrap .service-head.flex,
+    .blogs-section .our_work_all_wrap .service-head.flex {
         flex-wrap: wrap;
         row-gap: 12px;
     }
     .service_section .service_all_wrap .service-head .service-titel h3,
-    .our_work_section .our_work_all_wrap .service-head .service-titel h3 {
+    .our_work_section .our_work_all_wrap .service-head .service-titel h3,
+    .blogs-section .our_work_all_wrap .service-head .service-titel h3 {
         font-size: 18px;
         margin-bottom: 10px;
     }
     .service_section .service_all_wrap .service-head .service-titel h2,
-    .our_work_section .our_work_all_wrap .service-head .service-titel h2 {
+    .our_work_section .our_work_all_wrap .service-head .service-titel h2,
+    .blogs-section .our_work_all_wrap .service-head .service-titel h2 {
         font-size: 28px;
     }
     .service_section .service_all_wrap .service-head .service-text p,
-    .our_work_section .our_work_all_wrap .service-head .service-text p {
+    .our_work_section .our_work_all_wrap .service-head .service-text p,
+    .blogs-section .our_work_all_wrap .service-head .service-text p {
         font-size: 16px;
         line-height: 25px;
     }
@@ -578,5 +633,24 @@ body {
         width: 160px;
         margin: 0;
         margin-top: 15px;
+    }
+    .blogs-section {
+        padding: 30px 0 40px;
+    }
+    .blogs-section .our_work_all_wrap .service-head {
+        margin-bottom: 30px;
+    }
+    .blogs-section .our_work_all_wrap .blog_cards_wrapper.flex {
+        flex-wrap: wrap;
+    }
+    .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap {
+        margin-bottom: 30px;
+    }
+    .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-title-text h3 {
+        margin: 25px 0 12px;
+    }
+    .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-title-text p {
+        font-size: 16px;
+        line-height: 25px;
     }
 }

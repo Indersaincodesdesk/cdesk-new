@@ -314,4 +314,12 @@
         font-size: 28px;
         line-height: 34px;
     }
+    .partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos_mobile .upper-logos {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos_mobile .lower-logos {
+        justify-content: space-between;
+    }
 }
