@@ -151,6 +151,23 @@ body {
     align-items: flex-start;
     justify-content: space-between;
 }
+.green-text {
+    color: #37C8AE;
+    font-family: var(--second-heading);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.primery-heading {
+    color: #FFF;
+    font-family: var(--main-heading-font);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 .space-between {
     justify-content: space-between;
 }
@@ -451,6 +468,149 @@ body {
     max-width: 402px;
 }
 
+/* about page */
+.main-title-section .main-title-wrap {
+    padding: 100px 0;
+}
+.main-title-section .main-title-wrap .green-text {
+    color: #37C8AE;
+    font-family: var(--second-heading);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.main-title-section .main-title-wrap .main-heading {
+    margin: 15px 0;
+}
+.main-title-section .main-title-wrap .primery-text {
+    color: #FFF;
+    font-family: var(--second-heading);
+    width: 100%;
+    max-width: 1012px;
+}
+
+
+
+
+
+.slick-dots {
+    bottom: -38px !important;
+}
+
+.slick-dots .slick-active {
+    background-color: var(--red);
+    width: 30px !important;
+    border-radius: 10px;
+}
+.image-slider-items.slick-dotted {
+    margin-bottom: 0 !important;
+}
+
+.image-slider-items .slick-dots {
+    background-color: rgba(55, 200, 174, 0.77);
+    bottom: 0 !important;
+    right: 0;
+    margin: 0;
+    padding: 51px 26.07px 50px 58.31px;
+    min-width: 46px;
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-slider-items .slick-dots li {
+    display: flex;
+    margin: 0;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.images-slides .image-slider-items .slick-dots li {
+    display: flex;
+    margin: 0;
+    width: 15px !important;
+    height: 15px !important;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.image-slider-items .slick-dots li:last-child {
+    margin-bottom: 0;
+}
+
+.image-slider-items .slick-dots li button::before {
+    display: none;
+}
+
+.slick-dots li button {
+    border: 0;
+    background: #fff !important;
+    display: block;
+    height: 15px !important;
+    width: 15px !important;
+    outline: none;
+    line-height: 0px;
+    font-size: 0px;
+    color: #fff !important;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+    position: relative;
+}
+
+/* .slick-dots li button::after {
+    content: '1';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    display: block;
+    width: 15px;
+    height: 15px;
+    z-index: 999999;
+} */
+.image-slider-items .slick-slide img {
+    display: block;
+    width: 100%;
+}
+.image-slider-items .slick-slider .slick-track, .slick-slider .slick-list {
+    border-radius: unset !important;
+}
+
+.image-slider-items .slick-dots li.slick-active {
+    width: 41.65px !important;
+    height: 40px !important;
+    border-radius: 100%;
+    background: #37C8AE !important;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-slider-items .slick-dots li.slick-active button {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    color: #000 !important;
+    background: #37C8AE !important;
+    font-family: var(--main-heading-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -486,6 +646,10 @@ body {
     .our_work_section,
     .blogs-section {
         padding: 60px 0px;
+    }
+    /* about page */
+    .main-title-section .main-title-wrap .main-heading {
+        font-size: 45px;
     }
 }
 @media only screen and (max-width:767px) {
@@ -650,6 +814,21 @@ body {
         margin: 25px 0 12px;
     }
     .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-title-text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* about */
+    .main-title-section .main-title-wrap {
+        padding: 70px 0 55px;
+    }
+    .main-title-section .main-title-wrap .main-heading {
+        font-size: 28px;
+        margin: 10px 0 12px;
+    }
+    .main-title-section .main-title-wrap .green-text {
+        font-size: 18px;
+    }
+    .main-title-section .main-title-wrap .primery-text {
         font-size: 16px;
         line-height: 25px;
     }
