@@ -414,7 +414,7 @@ body {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), lightgray 50% / cover no-repeat;
+    background: #000;
     transition: all 0.5s ease;
     z-index: 0;
     border-radius: 10px;
@@ -564,19 +564,11 @@ body {
     border-radius: 100%;
     position: relative;
 }
-
-/* .slick-dots li button::after {
-    content: '1';
+.image-slider-items .slick-dots li.slick-active button:after {
+    content: '0';
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #000;
-    display: block;
-    width: 15px;
-    height: 15px;
-    z-index: 999999;
-} */
+    left: 0;
+}
 .image-slider-items .slick-slide img {
     display: block;
     width: 100%;
@@ -609,7 +601,11 @@ body {
     line-height: normal;
     justify-content: center;
     align-items: center;
+    padding-left: 16px;
 }
+/* .last-team-slider-section .slick-initialized .slick-slide:nth-child(even) {
+    max-width: 221px !important;
+} */
 
 
 
@@ -650,6 +646,13 @@ body {
     /* about page */
     .main-title-section .main-title-wrap .main-heading {
         font-size: 45px;
+    }
+    .about_slider_section .slider_and_text_wrapper .image-slider-items .slick-dots {
+        padding: 25px 15px 25px 25px;
+    }
+    .about_slider_section .slider_and_text_wrapper .image-slider-items .slick-slide img {
+        min-height: 400px;
+        object-fit: cover;
     }
 }
 @media only screen and (max-width:767px) {
@@ -831,5 +834,26 @@ body {
     .main-title-section .main-title-wrap .primery-text {
         font-size: 16px;
         line-height: 25px;
+    }
+    .image-slider-items .slick-dots li.slick-active {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .image-slider-items .slick-dots li.slick-active button {
+        font-size: 15px;
+        padding-left: 13px;
+    }
+    .image-slider-items .slick-dots li button {
+        height: 12px !important;
+        width: 12px !important;
+    }
+    .image-slider-items .slick-dots {
+        padding: 16px 22px 13px 21px;
+    }
+    .image-slider-items .slick-dots li {
+        margin-bottom: 10px;
+    }
+    .image-slider-items .slick-slide img {
+        border-radius: 10px;
     }
 }

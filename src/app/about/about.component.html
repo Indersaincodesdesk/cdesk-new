@@ -11,8 +11,8 @@
 </section>
 <section class="about-banner-section">
     <div class="banner-image-wrap">
-        <img class="desktop" src="../../assets/image/about-banner.png" alt="about-banner" width="100%">
-        <img class="mobile" src="../../assets/image/about-banner-mobile.png" alt="about-banner" width="100%">
+        <!-- <img class="desktop" src="../../assets/image/about-banner.png" alt="about-banner" width="100%">
+        <img class="mobile" src="../../assets/image/about-banner-mobile.png" alt="about-banner" width="100%"> -->
     </div>
     <div class="container">
         <div class="about_cards_wrap flex">
@@ -144,6 +144,7 @@
                 </ngx-slick-carousel>
             </div>
             <div class="slider-text-side">
+                <img src="../../assets/image/st-video-shape.png" width="100%" alt="dots" class="dots-image">
                 <h3 class="green-text">OUR COMPANY</h3>
                 <h2 class="primery-heading">Choose The Best IT Service Company</h2>
                 <p class="primery-text">Codesdesk Is Growing E-Commerce Agency Based In India Serving Global Clients Since 7+ Years. We Employ In-House Team Of Professionals Working Round The Clock To Deliver Quality Web Based Services.</p>
@@ -158,14 +159,84 @@
                 <div class="slider-buttons flex">
                     <a class="cdk-btn-green" href="/">Get a quote</a>
                     <div class="call-cdk-wrap flex">
-                        <a href="" class="call-icon"><img src="../../assets/image/call-icon.png" alt="icon"></a>
+                        <a href="tel:+91-9988074677" class="call-icon"><img src="../../assets/image/call-icon.png" alt="icon"></a>
                         <span class="ckd-call-text flex_two">
                             <span class="cdk_text">Call for help</span>
-                            <a href="/">+91-99999-99999</a>
+                            <a href="tel:+91-9988074677">+91-99880-74677</a>
                         </span>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section class="last-team-slider-section">
+    <div class="container">
+        <div class="team_slider_title_wrap">
+            <h2 class="slider-title">
+                Fueling Curiosity, Driving Excellence: Life at Codesdesk
+            </h2>
+        </div>
+    </div>
+        <ngx-slick-carousel  class="team-slider-wrapper flex_two" #slickModal="slick-carousel" [config]="teamcaseConfig">
+            <div ngxSlickItem>
+                <div class="slide_wrapper flex_two" >
+                    <div class="team_slider_com team_slide_one">
+                        <img src="../../assets/image/team/team-one.png" alt="">
+                    </div>
+                    <div class="team_slider_com team_slide_two">
+                        <div class="t-s-up">
+                            <img src="../../assets/image/team/team-two.png" alt="">
+                        </div>
+                        <div class="t-s-down">
+                            <img src="../../assets/image/team/team-three.png" alt="">
+                        </div>
+                    </div>
+                    <div class="team_slider_com team_slide_three">
+                        <img src="../../assets/image/team/team-four.png" alt="">
+                    </div>
+                </div>  
+            </div>   
+            <div ngxSlickItem>
+                <div class="slide_wrapper flex_two" >
+                    <div class="team_slider_com team_slide_one">
+                        <img src="../../assets/image/team/team-one.png" alt="">
+                    </div>
+                    <div class="team_slider_com team_slide_two">
+                        <div class="t-s-up">
+                            <img src="../../assets/image/team/team-two.png" alt="">
+                        </div>
+                        <div class="t-s-down">
+                            <img src="../../assets/image/team/team-three.png" alt="">
+                        </div>
+                    </div>
+                    <div class="team_slider_com team_slide_three">
+                        <img src="../../assets/image/team/team-four.png" alt="">
+                    </div>
+                </div>  
+            </div>
+            <div ngxSlickItem>
+                <div class="slide_wrapper flex_two" >
+                    <div class="team_slider_com team_slide_one">
+                        <img src="../../assets/image/team/team-one.png" alt="">
+                    </div>
+                    <div class="team_slider_com team_slide_two">
+                        <div class="t-s-up">
+                            <img src="../../assets/image/team/team-two.png" alt="">
+                        </div>
+                        <div class="t-s-down">
+                            <img src="../../assets/image/team/team-three.png" alt="">
+                        </div>
+                    </div>
+                    <div class="team_slider_com team_slide_three">
+                        <img src="../../assets/image/team/team-four.png" alt="">
+                    </div>
+                </div>  
+            </div>   
+        </ngx-slick-carousel>
+    <div class="container">
+        <div class="team_slider_mobile mobile">
+            <img src="../../assets/image/team/team-one.png" alt="">
         </div>
     </div>
 </section>
