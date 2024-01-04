@@ -1,0 +1,6 @@
+.blogs-section {
+    padding: 100px 0 200px;
+}
+.blogs-section .our_work_all_wrap .blog_cards_wrapper {
+   row-gap: 50px;
+}
