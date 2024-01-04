@@ -785,10 +785,13 @@ body {
     align-items: center;
     padding-left: 16px;
 }
-/* .last-team-slider-section .slick-initialized .slick-slide:nth-child(even) {
-    max-width: 221px !important;
-} */
-
+/* our work */
+.our_work-images_wrap .work-image_all img.desktop {
+    display: block;
+}
+.our_work-images_wrap .work-image_all img.mobile {
+    display: none;
+}
 
 
 
@@ -1099,5 +1102,21 @@ body {
     .our-approach-section .container .about_cards_wrap .about-cards_wrap {
         max-width: 390px;
         margin: 0 auto;
+    }
+    /* about cards-end */
+    /* our-work */
+    .our_work-images_wrap .work-image_two img, 
+    .our_work-images_wrap .work-image_three img, 
+    .our_work-images_wrap .work-image_one img, 
+    .our_work-images_wrap .work-image_four img {
+        min-height: 450px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .our_work-images_wrap .work-image_all img.desktop {
+        display: none;
+    }
+    .our_work-images_wrap .work-image_all img.mobile {
+        display: block;
     }
 }
