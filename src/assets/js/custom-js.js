@@ -31,4 +31,19 @@ $(document).ready(function() {
         $(this).text('Show More');
     });
 
+    var checkExist = setInterval(function() {
+        if ($('#blogFilter .blog_card_wrap').length) {
+            $("#blogFilter .blog_card_wrap").hide();
+            $("#blogFilter .blog_card_wrap").slice(0, 9).fadeIn();
+            $(document).on('click', '#loadMore', function(e) {
+                e.preventDefault();
+                $("#blogFilter .blog_card_wrap:hidden").slice(0, 9).fadeIn();
+                if ($("#blogFilter .blog_card_wrap:hidden").length == 0) {
+                    $("#loadMore").fadeOut('slow');
+                }
+            });
+            clearInterval(checkExist);
+        }
+    }, 100);
+
 });

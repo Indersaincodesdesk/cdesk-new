@@ -278,11 +278,18 @@ body {
 }
 .service_section .service_all_wrap .service-head .service-titel h2,
 .our_work_section .our_work_all_wrap .service-head .service-titel h2,
-.blogs-section .our_work_all_wrap .service-head .service-titel h2,
 .our-approach-section .service-head .service-titel h2 {
     color: #FFF;
     font-family: var(--main-heading-font);
     font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.blogs-section .our_work_all_wrap .service-head .service-titel h2 {
+    color: #FFF;
+    font-family: var(--main-heading-font);
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -471,8 +478,12 @@ body {
     margin: 0 auto;
     margin-top: 35px;
 }
+.blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap {
+    max-width: 447px;
+}
 .blogs-section .our_work_all_wrap .blog_cards_wrapper {
-    column-gap: 20px;
+    column-gap: unset;
+    flex-wrap: wrap;
 }
 .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-img {
     width: 100%;
@@ -501,6 +512,16 @@ body {
     line-height: 27px;
     width: 100%;
     max-width: 402px;
+}
+.blogs-section .our_work_all_wrap {
+    padding: 0 11px 0 30px;
+}
+.blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap {
+    max-width: 467px;
+    flex: 0 0 auto;
+    width: 33.333333%;
+    padding: 0 19px 0 0;
+    text-decoration: none;
 }
 
 /* about page */
@@ -1024,14 +1045,22 @@ body {
     .blogs-section {
         padding: 30px 0 40px;
     }
+    .blogs-section .our_work_all_wrap {
+        padding: 0 20px 0 20px;
+    }
+    .blogs-section .our_work_all_wrap .blog_cards_wrapper {
+        row-gap: 30px;
+        flex-wrap: wrap;
+    }
     .blogs-section .our_work_all_wrap .service-head {
         margin-bottom: 30px;
     }
-    .blogs-section .our_work_all_wrap .blog_cards_wrapper.flex {
-        flex-wrap: wrap;
-    }
     .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap {
-        margin-bottom: 30px;
+        max-width: 100%;
+        flex: unset;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0;
     }
     .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-title-text h3 {
         margin: 25px 0 12px;
