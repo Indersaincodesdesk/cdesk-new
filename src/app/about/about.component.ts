@@ -12,11 +12,12 @@ export class AboutComponent {
     "dots": true,
     "arrows": false,
     "infinite": true,
-    "autoplay": false,
+    "autoplay": true,
     "autoplaySpeed": '2000', 
     "fade": true,
     "cssEase": 'linear'    
   };
+
   teamcaseConfig = {
     "slidesToShow": 1,    
     "slidesToScroll": 1,
