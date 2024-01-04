@@ -151,6 +151,11 @@ body {
     align-items: flex-start;
     justify-content: space-between;
 }
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 .green-text {
     color: #37C8AE;
     font-family: var(--second-heading);
@@ -212,6 +217,24 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    text-transform: capitalize;
+    font-family: var(--second-heading);
+}
+.cdk-btn-transparent {
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #37C8AE;
     border-radius: 4px;
     font-size: 16px;
     font-style: normal;
