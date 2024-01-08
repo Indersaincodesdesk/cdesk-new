@@ -8,6 +8,7 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { OurTeamComponent } from './our-team/our-team.component';
+import { CareerComponent } from './career/career.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'resource', component: BlogDetailComponent },
   { path: 'contact', component: ContactUsComponent },
   { path: 'our-team', component: OurTeamComponent },
+  { path: 'career', component: CareerComponent },
 ];
 
 @NgModule({

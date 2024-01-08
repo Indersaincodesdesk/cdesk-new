@@ -14,6 +14,7 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { OurTeamComponent } from './our-team/our-team.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { OurTeamComponent } from './our-team/our-team.component';
     BlogListComponent,
     BlogDetailComponent,
     ContactUsComponent,
-    OurTeamComponent
+    OurTeamComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,
