@@ -12,6 +12,8 @@ import { ServiceComponent } from './service/service.component';
 import { OurWorkComponent } from './our-work/our-work.component';
 import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { OurTeamComponent } from './our-team/our-team.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { BlogDetailComponent } from './blog-detail/blog-detail.component';
     ServiceComponent,
     OurWorkComponent,
     BlogListComponent,
-    BlogDetailComponent
+    BlogDetailComponent,
+    ContactUsComponent,
+    OurTeamComponent
   ],
   imports: [
     BrowserModule,
