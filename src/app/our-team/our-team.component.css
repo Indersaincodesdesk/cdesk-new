@@ -106,6 +106,9 @@
 .professional-team-section {
     margin-bottom: 200px;
 }
+.professional-team-section .professional-team-wrap {
+    column-gap: 30px;
+}
 .professional-team-section .professional-team-wrap .professional-team-text {
     width: 100%;
     max-width: 583px;
@@ -133,6 +136,7 @@
     height: 25px;
     border-radius: 5px;
     background: #fff;
+    position: relative;
 }
 .professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra .barra-nivel {
     height:25px; 
@@ -142,19 +146,100 @@
     -webkit-transition: width 1s ease;
     -moz-transition: width 1s ease;
     transition: width 1s ease;
-}
-.professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra .barra-nivel span.valor-nivel {
-    margin-left:10px; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     color: #000;
     font-family: var(--second-heading);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    padding: 0 49px 0 38px;
+}
+.professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra .barra-title-text {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    left: 38px;
+    color: #000;
+    font-family: var(--second-heading);
+}
+.professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap:not(:first-child) {
+    margin-top: 30px;
 }
 .professional-team-section .professional-team-wrap .professional-team-cards {
     width: 100%;
     max-width: 710px;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap {
+    width: 100%;
+    max-width: 220px;
+    height: 100%;
+    border: 1px solid #37C8AE;
+    border-radius: 10px;
+    padding: 27px 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap:hover {
+    margin-top: -10px;
+    cursor: pointer;
+    /* box-shadow: 0px 12px 15px 0px #5ed8c2; */
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.two:hover {
+    margin-top: 127px;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.two {
+    margin-top: 137px;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.three {
+    margin-top: 259px;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.three:hover {
+    margin-top: 249px;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-img-wrap {
+    width: 100%;
+    max-width: 60px;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-img-wrap img{
+    display: block;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-card-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--second-heading);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-text {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--second-heading);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+@media only screen and (min-width:1280px) and (max-width:1366px) {
+    .professional-team-section .professional-team-wrap .professional-team-text {
+        width: 100%;
+        max-width: 530px;
+    }
+    .professional-team-section .professional-team-wrap  .professional-team-cards .professional-cards .our-card-wrap {
+        width: 100%;
+        max-width: 210px;
+        padding: 26px 10px;
+    }
 }
 @media only screen and (max-width:1280px) {
     .ceo-section .ceo-text-image-wraper .ceo-image-wrap {
@@ -170,6 +255,40 @@
     }
     .ceo-section .ceo-text-image-wraper .ceo-image-wrap .ceo-image {
         right: 0px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-text {
+        max-width: 410px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-text .main-heading {
+        margin: 10px 0;
+        font-size: 48px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-text .primery-text {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap:not(:first-child) {
+        margin-top: 20px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap  {
+        max-width: 165px;
+        padding: 13px 10px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap:not(:last-child) {
+       margin-right: 15px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-img-wrap {
+        max-width: 50px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-card-heading {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 10px 0;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-text {
+        font-size: 14px;
+        line-height: 20px;
     }
 }
 @media only screen and (max-width:991px) {
@@ -206,6 +325,36 @@
         border-radius: 10px;
         border: 1px solid #37C8AE;
     }
+    .professional-team-section .professional-team-wrap {
+        column-gap: 0;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-text {
+        max-width: 100%;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-text .main-heading {
+        font-size: 60px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap {
+        max-width: 220px;
+        padding: 27px 21px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap:not(:last-child) {
+        margin-right: 0;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-img-wrap {
+        width: 100%;
+        max-width: 60px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-card-heading {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap .our-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
 }
 @media only screen and (max-width:767px) {
     .ceo-section .ceo-text-image-wraper .ceo-text-wrap .main-heading {
@@ -235,5 +384,30 @@
     .hide {
         visibility: hidden;
         display: none;
+    }
+    .blogs-section {
+        padding: 55px 0;
+    }
+    .professional-team-section .professional-team-wrap {
+        row-gap: 30px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.one,
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.two,
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.three {
+        margin-top: 20px;
+    }
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.one:hover,
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.two:hover,
+    .professional-team-section .professional-team-wrap .professional-team-cards .professional-cards .our-card-wrap.three:hover {
+        margin-top: 10px;
+    }
+    .professional-team-section {
+        margin-top: 20px;
+        margin-bottom: 55px;
     }
 }
