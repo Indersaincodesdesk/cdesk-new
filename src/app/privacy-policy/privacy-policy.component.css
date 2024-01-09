@@ -1,0 +1,15 @@
+.container {
+    padding: 0 30px;
+}
+.privacy-policy {
+    padding: 100px 0 185px;
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        padding: 0 20px;
+    }
+    .privacy-policy {
+        padding: 70px 0 55px;
+    }
+}
