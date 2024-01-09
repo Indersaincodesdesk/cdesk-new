@@ -9,6 +9,9 @@ import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { OurTeamComponent } from './our-team/our-team.component';
 import { CareerComponent } from './career/career.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
+import { ServiceDetailsComponent } from './service-details/service-details.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -20,6 +23,9 @@ const routes: Routes = [
   { path: 'contact', component: ContactUsComponent },
   { path: 'our-team', component: OurTeamComponent },
   { path: 'career', component: CareerComponent },
+  { path: 'privacy', component: PrivacyPolicyComponent },
+  { path: 'terms', component: TermsConditionsComponent },
+  { path: 'service-details', component: ServiceDetailsComponent },
 ];
 
 @NgModule({

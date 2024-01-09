@@ -8,13 +8,12 @@
             </p>
             <div class="cdk-buttons-wrap flex">
                 <a class="cdk-btn-green" href="/">contact us</a>
-                <a class="cdk-btn-white" href="/">Our approach</a>
+                <a class="cdk-btn-white" (click)="scroll(target)">Our approach</a>
             </div>
         </div>
     </div>
 </section>
 <section class="service_section">
-    
         <div class="service_all_wrap container-second">
             <h3 class="green-text">our services</h3>
             <div class="service-head flex space-between">
@@ -155,7 +154,7 @@
             </div>
         </div>
 </section>
-<section class="our-approach-section">
+<section class="our-approach-section" #target>
     <div class="container">
         <h3 class="green-text">Our Approach</h3>
         <div class="service-head flex space-between">
