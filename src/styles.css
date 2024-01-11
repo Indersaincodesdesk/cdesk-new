@@ -237,6 +237,14 @@ body {
     line-height: normal;
     text-transform: uppercase;
 }
+.portfolio-title-green {
+    color: #37C8AE;
+    font-family: var(--second-heading);
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120px;
+}
 .space-between {
     justify-content: space-between;
 }
@@ -1462,6 +1470,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 700px;
     width: 100%;
 }
@@ -1757,3 +1766,28 @@ html {
     }
 }
 /* service detail inner page end */
+.case-slider-wrapper .slick-arrow.next-arrow {
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.case-slider-wrapper .slick-arrow.prev-arrow {
+    position: absolute;
+    right: 55px;
+    top: -100px;
+}
+.case-slider-wrapper .slick-arrow.next-arrow svg,
+.case-slider-wrapper .slick-arrow.prev-arrow svg {
+    display: block;
+}
+.case-slider-wrapper .slick-arrow.next-arrow,
+.case-slider-wrapper .slick-arrow.prev-arrow {
+    background-color: #37C8AE;
+    border-radius: 100%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

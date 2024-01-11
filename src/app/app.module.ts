@@ -18,6 +18,7 @@ import { CareerComponent } from './career/career.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
 import { ServiceDetailsComponent } from './service-details/service-details.component';
+import { LuxandnyxComponent } from './luxandnyx/luxandnyx.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ServiceDetailsComponent } from './service-details/service-details.compo
     CareerComponent,
     PrivacyPolicyComponent,
     TermsConditionsComponent,
-    ServiceDetailsComponent
+    ServiceDetailsComponent,
+    LuxandnyxComponent
   ],
   imports: [
     BrowserModule,

@@ -12,6 +12,7 @@ import { CareerComponent } from './career/career.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
 import { ServiceDetailsComponent } from './service-details/service-details.component';
+import { LuxandnyxComponent } from './luxandnyx/luxandnyx.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'privacy', component: PrivacyPolicyComponent },
   { path: 'terms', component: TermsConditionsComponent },
   { path: 'service-details', component: ServiceDetailsComponent },
+  { path: 'luxandnyx', component: LuxandnyxComponent },
 ];
 
 @NgModule({
