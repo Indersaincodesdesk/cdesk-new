@@ -159,10 +159,13 @@
     }
     #menu {
         width: 100%;
-        background: linear-gradient(166deg, rgba(12, 55, 48, 0.50) 0%, #000 100%);
+        position: fixed;
+        background-color: #010C16;
+        z-index: 1;
     }
     #menu .menu-ul-mobile {
         padding: 25px 0;
+        background: linear-gradient(166deg, rgba(12, 55, 48, 0.50) 0%, #000 100%);
     }
     #menu .menu-ul-mobile li {
         list-style: none;

@@ -13,6 +13,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
 import { ServiceDetailsComponent } from './service-details/service-details.component';
 import { LuxandnyxComponent } from './luxandnyx/luxandnyx.component';
+import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -28,6 +29,14 @@ const routes: Routes = [
   { path: 'terms', component: TermsConditionsComponent },
   { path: 'service-details', component: ServiceDetailsComponent },
   { path: 'luxandnyx', component: LuxandnyxComponent },
+
+
+  {path: '**', component: ErrorComponent, data: 
+  {
+    title: '',
+    descrption:""
+  }
+}
 ];
 
 @NgModule({
