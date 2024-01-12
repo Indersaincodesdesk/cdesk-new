@@ -1,9 +1,14 @@
 $(document).ready(function() {
+    // header
     $(document).on("click","#toggle", function() {
         $(this).toggleClass("on");
         $("#menu").slideToggle();
+        $(this).parent(".container").find('#menu').show();
+        $('body,html').addClass("fixed-on-mobile");
     });
-
+    $(document).on('click', '#toggle.on', function() {
+        $('body,html').removeClass("fixed-on-mobile");
+    });
     $(document).on("click",".tab-heading", function() {
         $(this).toggleClass("on");
         $(".tabcontent").slideToggle();
@@ -30,7 +35,7 @@ $(document).ready(function() {
         $(this).removeClass('active');
         $(this).text('Show More');
     });
-
+// blog loadmore btn
     var checkExist = setInterval(function() {
         if ($('#blogFilter .blog_card_wrap').length) {
             $("#blogFilter .blog_card_wrap").hide();
@@ -101,5 +106,4 @@ $(document).ready(function() {
             }       
         });
     }, 100);
-
 });

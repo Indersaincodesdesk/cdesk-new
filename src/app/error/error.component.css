@@ -1,0 +1,88 @@
+.error-main-section {
+    padding: 150px 0;
+    background: linear-gradient(245deg, rgba(12, 55, 48, 0.50) 0%, #010C16 100%);
+}
+.container {
+    padding: 0 30px;
+}
+.error-main-section .error-all-wrapper .error-text-wrap {
+    width: 100%;
+}
+.error-main-section .error-all-wrapper .error-text-wrap .main-heading  {
+    margin: 15px 0;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+.error-main-section .error-all-wrapper .error-text-wrap .primery-text {
+    max-width: 563px;
+    font-family: var(--second-heading);
+}
+.error-main-section .error-all-wrapper .error-text-wrap .bnt-wrap {
+    margin-top: 40px;
+}
+.error-main-section .error-all-wrapper .error-img-wrap {
+    margin-right: 97px;
+    width: 100%;
+    max-width: 500px;
+}
+.error-main-section .error-all-wrapper .error-img-wrap img {
+    display: block;
+}
+@media only screen and (max-width:1024px) {
+    .error-main-section .error-all-wrapper .error-text-wrap .primery-text {
+        max-width: 480px;
+    } 
+    .error-main-section .error-all-wrapper .error-img-wrap {
+        margin-right: 0px;
+        max-width: 450px;
+    }
+}
+@media only screen and (max-width:991px) {
+    .error-main-section .error-all-wrapper .error-text-wrap .primery-text {
+        max-width: 360px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .error-main-section .error-all-wrapper .error-text-wrap .main-heading {
+        margin: 10px 0;
+        font-size: 50px;
+    }
+    .error-main-section .error-all-wrapper .error-img-wrap {
+        margin-right: 0px;
+        max-width: 300px;
+    }
+    .error-main-section .error-all-wrapper .error-text-wrap .bnt-wrap {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .container {
+        padding: 0 20px;
+    }
+    .error-main-section {
+        padding: 60px 0 100px;
+    }
+    .error-main-section .error-all-wrapper {
+        flex-wrap: wrap-reverse;
+        row-gap: 58px;
+        text-align: center;
+        justify-content: center;
+    }
+    .error-main-section .error-all-wrapper .error-img-wrap {
+        max-width: 380px;
+    }
+    .error-main-section .error-all-wrapper .error-text-wrap .green-text {
+        font-size: 18px;
+    }
+    .error-main-section .error-all-wrapper .error-text-wrap .main-heading {
+        margin: 10px 0 12px;
+        font-size: 28px;
+    }
+    .error-main-section .error-all-wrapper .error-text-wrap .primery-text {
+        max-width: unset;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .error-main-section .error-all-wrapper .error-text-wrap .bnt-wrap {
+        margin-top: 30px;
+    }
+}

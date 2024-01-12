@@ -43,6 +43,19 @@
     max-width: 84px;
     text-align: center;
 }
+.text_wrap .detail_count_wrap .first_count_wrap .count {
+    text-align: center;
+    font-family: var(--second-heading);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 9px;
+    color: #37C8AE;
+}
+.text_wrap .detail_count_wrap .first_count_wrap .count .counter-number {
+    color: #fff;
+}
 .detail_count_wrap .first_count_wrap .text {
     color: #FFF;
     text-align: center;
@@ -51,20 +64,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
-}
-.detail_count_wrap .first_count_wrap .number {
-    color: #FFF;
-    text-align: center;
-    font-family: var(--second-heading);
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 27px;
-    margin-bottom: 9px;
-}
-.detail_count_wrap .first_count_wrap .number span {
-    color: #37C8AE;
-    display: inline-block;
 }
 .slideshow {
     width: 100%;
