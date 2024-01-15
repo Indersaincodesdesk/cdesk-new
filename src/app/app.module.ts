@@ -20,6 +20,17 @@ import { TermsConditionsComponent } from './terms-conditions/terms-conditions.co
 import { ServiceDetailsComponent } from './service-details/service-details.component';
 import { LuxandnyxComponent } from './luxandnyx/luxandnyx.component';
 import { ErrorComponent } from './error/error.component';
+import { ParisSelectComponent } from './paris-select/paris-select.component';
+import { EgyptianqueenbeautyComponent } from './egyptianqueenbeauty/egyptianqueenbeauty.component';
+import { MenshealthclinicComponent } from './menshealthclinic/menshealthclinic.component';
+import { ProtechComponent } from './protech/protech.component';
+import { GrippsComponent } from './gripps/gripps.component';
+import { FameschocolatesComponent } from './fameschocolates/fameschocolates.component';
+import { AnansipalaceforkidsComponent } from './anansipalaceforkids/anansipalaceforkids.component';
+import { ShopifyWebDevelopmentComponent } from './shopify-web-development/shopify-web-development.component';
+import { StrategyComponent } from './strategy/strategy.component';
+import { DataMigrationComponent } from './data-migration/data-migration.component';
+import { ShopifyAppDevelopmentComponent } from './shopify-app-development/shopify-app-development.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +50,18 @@ import { ErrorComponent } from './error/error.component';
     TermsConditionsComponent,
     ServiceDetailsComponent,
     LuxandnyxComponent,
-    ErrorComponent
+    ErrorComponent,
+    ParisSelectComponent,
+    EgyptianqueenbeautyComponent,
+    MenshealthclinicComponent,
+    ProtechComponent,
+    GrippsComponent,
+    FameschocolatesComponent,
+    AnansipalaceforkidsComponent,
+    ShopifyWebDevelopmentComponent,
+    StrategyComponent,
+    DataMigrationComponent,
+    ShopifyAppDevelopmentComponent
   ],
   imports: [
     BrowserModule,

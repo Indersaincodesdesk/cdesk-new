@@ -32,6 +32,9 @@
     line-height: normal;
     text-transform: uppercase;
 }
+.menu-ul li a.active {
+    color: #37C8AE;
+}
 .bnt-wrap {
     margin-left: 30px;
 }

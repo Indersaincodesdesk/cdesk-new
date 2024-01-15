@@ -1,0 +1,18 @@
+#service-main.main-title-section {
+    background: url(../../assets/image/servicre-inner/service-inner-design.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding: 87px 0;
+}
+#service-three.service-bacground-section {
+    background: url(../../assets/image/servicre-inner/service-detail-bacground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+}
