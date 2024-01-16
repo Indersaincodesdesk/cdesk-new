@@ -1,5 +1,5 @@
 .ceo-section {
-    background: url(../../assets/image/team-member/ceo-section-background.png);
+    background: url(../../assets/image/team-member/ceo-section-background.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,7 +366,7 @@
     }
     .ceo-section {
         padding: 70px 0px;
-        background: url(../../assets/image/team-member/ceo-section-background-mobile.png);
+        background: url(../../assets/image/team-member/ceo-section-background-mobile.webp);
     }
     .ceo-section .ceo-text-image-wraper .ceo-text-wrap .green-text {
         margin: 10px 0 15px;
