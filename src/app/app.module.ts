@@ -31,6 +31,10 @@ import { ShopifyWebDevelopmentComponent } from './shopify-web-development/shopif
 import { StrategyComponent } from './strategy/strategy.component';
 import { DataMigrationComponent } from './data-migration/data-migration.component';
 import { ShopifyAppDevelopmentComponent } from './shopify-app-development/shopify-app-development.component';
+import { ShopifyAppsBlogComponent } from './shopify-apps-blog/shopify-apps-blog.component';
+import { Resource3Component } from './resource-3/resource-3.component';
+import { Resource4Component } from './resource-4/resource-4.component';
+import { Resource5Component } from './resource-5/resource-5.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +65,11 @@ import { ShopifyAppDevelopmentComponent } from './shopify-app-development/shopif
     ShopifyWebDevelopmentComponent,
     StrategyComponent,
     DataMigrationComponent,
-    ShopifyAppDevelopmentComponent
+    ShopifyAppDevelopmentComponent,
+    ShopifyAppsBlogComponent,
+    Resource3Component,
+    Resource4Component,
+    Resource5Component
   ],
   imports: [
     BrowserModule,

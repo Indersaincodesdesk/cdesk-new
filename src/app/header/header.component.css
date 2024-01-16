@@ -1,3 +1,34 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    z-index: 8;
+}
+header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: #040A17;
+    width: 100%;
+    transition: all 0.3s ease;
+    animation: header-anim .2s ease .027s both;
+}
+@keyframes header-anim {
+    0% {
+        opacity: 0.5;
+        -webkit-transform: translateY(-60px);
+        -ms-transform: translateY(-60px);
+        transform: translateY(-60px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
 .main-header-wrap,
 .menu-wrap,
 .menu-ul {

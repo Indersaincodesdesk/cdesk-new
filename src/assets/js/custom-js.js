@@ -1,5 +1,13 @@
 $(document).ready(function() {
     // header
+    $(window).scroll(function () {
+        var header = $("header");
+        if ($(window).scrollTop() > 150) {
+          header.addClass("sticky");
+        } else {
+          header.removeClass("sticky");
+        }
+      });
     $(document).on("click","#toggle", function() {
         $(this).toggleClass("on");
         $("#menu").slideToggle();
