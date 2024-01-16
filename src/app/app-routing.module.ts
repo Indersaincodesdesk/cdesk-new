@@ -25,6 +25,10 @@ import { ShopifyWebDevelopmentComponent } from './shopify-web-development/shopif
 import { StrategyComponent } from './strategy/strategy.component';
 import { DataMigrationComponent } from './data-migration/data-migration.component';
 import { ShopifyAppDevelopmentComponent } from './shopify-app-development/shopify-app-development.component';
+import { ShopifyAppsBlogComponent } from './shopify-apps-blog/shopify-apps-blog.component';
+import { Resource3Component } from './resource-3/resource-3.component';
+import { Resource4Component } from './resource-4/resource-4.component';
+import { Resource5Component } from './resource-5/resource-5.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -51,6 +55,10 @@ const routes: Routes = [
   { path: 'strategy&cro', component: StrategyComponent },
   { path: 'data-migration', component: DataMigrationComponent },
   { path: 'shopify-app', component: ShopifyAppDevelopmentComponent },
+  { path: 'resource-2', component: ShopifyAppsBlogComponent },
+  { path: 'resource-3', component: Resource3Component },
+  { path: 'resource-4', component: Resource4Component },
+  { path: 'resource-5', component: Resource5Component },
 
 
   {path: '**', component: ErrorComponent, data: 
