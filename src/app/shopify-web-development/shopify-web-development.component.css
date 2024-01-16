@@ -1,5 +1,5 @@
 #service-main.main-title-section {
-    background: url(../../assets/image/servicre-inner/service-inner-design2.png);
+    background: url(../../assets/image/servicre-inner/service-inner-design2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@
     font-family: var(--second-heading);
 }
 #service-three.service-bacground-section {
-    background: url(../../assets/image/servicre-inner/service-detail-bacground2.png);
+    background: url(../../assets/image/servicre-inner/service-detail-bacground2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

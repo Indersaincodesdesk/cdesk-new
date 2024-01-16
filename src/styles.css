@@ -1765,7 +1765,7 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background: url(../src/assets/image/servicre-inner/bg_img_line.png),linear-gradient(104deg, rgba(12, 55, 48, 0.50) 0%, #000 98.85%);
+    background: url(../src/assets/image/servicre-inner/bg_img_line.webp),linear-gradient(104deg, rgba(12, 55, 48, 0.50) 0%, #000 98.85%);
 }
 #service-five.service-inner-slider .service-slider-head {
     width: 100%;
@@ -1961,7 +1961,7 @@ html {
     }
     #service-main.main-title-section {
         padding: 70px 0px;
-        background: url(../src/assets/image/servicre-inner/service-inner-design-mobile.png);
+        background: url(../src/assets/image/servicre-inner/service-inner-design-mobile.webp);
     }
     #service-two .container-two {
         max-width: 100%;
@@ -1981,7 +1981,7 @@ html {
         padding: 55px 0px;
     }
     #service-three.service-bacground-section {
-        background: url(../src/assets/image/servicre-inner/service-detail-bacground-mobile.png);
+        background: url(../src/assets/image/servicre-inner/service-detail-bacground-mobile.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
