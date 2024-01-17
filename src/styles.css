@@ -1474,7 +1474,7 @@ html {
     color: #000;
     border-radius: 10px;
     position: sticky;
-    top: 50px;
+    top: 100px;
 }
 #blog-detail-first.blog-detail-section .blog-body-and-newsletter .rte-blog-body h5 {
     list-style-type: auto;
@@ -1494,6 +1494,39 @@ html {
 #blog-detail-first.blog-detail-section .blog-body-and-newsletter .rte-blog-body ol {
     margin-left: 20px;
     margin-top: 30px;
+}
+#blog-detail-first.blog-detail-section .blog-body-and-newsletter .rte-blog-body h4 {
+    color: #FFF;
+    font-family: var(--main-heading-font);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+#blog-detail-first.blog-detail-section .blog-body-and-newsletter .rte-blog-body ul {
+    padding: 15px 0  20px 0px;
+}
+#blog-detail-first.blog-detail-section .blog-body-and-newsletter .rte-blog-body ul li {
+    color: #FFF;
+    font-family: var(--second-heading);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+#blog-detail-first.blog-detail-section .blog-body-and-newsletter .rte-blog-body h6 {
+    color: #FFF;
+    font-family: var(--second-heading);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+#blog-detail-first.blog-detail-section .blog-body-and-newsletter .rte-blog-body a {
+    color: #37C8AE;
 }
 #blog-detail-first.blog-detail-section .blog-body-and-newsletter .rte-blog-body ol li {
     color: #FFF;
