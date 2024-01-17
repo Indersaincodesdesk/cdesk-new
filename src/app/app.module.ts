@@ -42,6 +42,7 @@ import { Resource9Component } from './resource-9/resource-9.component';
 import { Resource10Component } from './resource-10/resource-10.component';
 import { Resource11Component } from './resource-11/resource-11.component';
 import { Resource12Component } from './resource-12/resource-12.component';
+import { Resource13Component } from './resource-13/resource-13.component';
 
 @NgModule({
   declarations: [
@@ -83,7 +84,8 @@ import { Resource12Component } from './resource-12/resource-12.component';
     Resource9Component,
     Resource10Component,
     Resource11Component,
-    Resource12Component
+    Resource12Component,
+    Resource13Component
   ],
   imports: [
     BrowserModule,
