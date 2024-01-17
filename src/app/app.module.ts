@@ -36,6 +36,12 @@ import { Resource3Component } from './resource-3/resource-3.component';
 import { Resource4Component } from './resource-4/resource-4.component';
 import { Resource5Component } from './resource-5/resource-5.component';
 import { Resource6Component } from './resource-6/resource-6.component';
+import { Resource7Component } from './resource-7/resource-7.component';
+import { Resource8Component } from './resource-8/resource-8.component';
+import { Resource9Component } from './resource-9/resource-9.component';
+import { Resource10Component } from './resource-10/resource-10.component';
+import { Resource11Component } from './resource-11/resource-11.component';
+import { Resource12Component } from './resource-12/resource-12.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +77,13 @@ import { Resource6Component } from './resource-6/resource-6.component';
     Resource3Component,
     Resource4Component,
     Resource5Component,
-    Resource6Component
+    Resource6Component,
+    Resource7Component,
+    Resource8Component,
+    Resource9Component,
+    Resource10Component,
+    Resource11Component,
+    Resource12Component
   ],
   imports: [
     BrowserModule,
