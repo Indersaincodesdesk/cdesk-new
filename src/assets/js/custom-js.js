@@ -114,4 +114,15 @@ $(document).ready(function() {
             }       
         });
     }, 100);
+
+
+    $(document).on('click', '.link-wrap .cdk-btn-white', function() {
+        $(this).addClass('activate');
+    });
+    $(document).on('mouseup', function(e) {
+        var popup = $(".activate");
+        if (!popup.is(e.target) && popup.has(e.target).length === 0) {
+            $(".link-wrap .cdk-btn-white").removeClass('activate');
+        }
+    });
 });
