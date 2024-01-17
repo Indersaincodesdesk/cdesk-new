@@ -35,6 +35,7 @@ import { ShopifyAppsBlogComponent } from './shopify-apps-blog/shopify-apps-blog.
 import { Resource3Component } from './resource-3/resource-3.component';
 import { Resource4Component } from './resource-4/resource-4.component';
 import { Resource5Component } from './resource-5/resource-5.component';
+import { Resource6Component } from './resource-6/resource-6.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { Resource5Component } from './resource-5/resource-5.component';
     ShopifyAppsBlogComponent,
     Resource3Component,
     Resource4Component,
-    Resource5Component
+    Resource5Component,
+    Resource6Component
   ],
   imports: [
     BrowserModule,

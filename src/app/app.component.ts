@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Renderer2 } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
@@ -8,7 +8,26 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class AppComponent {
   title = 'codesdesk';
-  constructor(private router: Router) { }
+  previousUrl = 'string';
+  constructor(
+    private router: Router,
+    private renderer: Renderer2
+    ) 
+    { 
+      this.router.events
+      .subscribe((event) => {
+        if (event instanceof NavigationEnd) {
+          if (this.previousUrl) {
+            this.renderer.removeClass(document.body, this.previousUrl);
+          }
+          let currentUrlSlug = event.url.slice(1)
+          if (currentUrlSlug) {
+            this.renderer.addClass(document.body, currentUrlSlug);
+          }
+          this.previousUrl = currentUrlSlug;
+        }
+      });
+    }
   ngOnInit() {
     this.router.events.subscribe((event) => {
         if (!(event instanceof NavigationEnd)) {
