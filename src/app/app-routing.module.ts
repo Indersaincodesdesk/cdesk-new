@@ -29,6 +29,7 @@ import { ShopifyAppsBlogComponent } from './shopify-apps-blog/shopify-apps-blog.
 import { Resource3Component } from './resource-3/resource-3.component';
 import { Resource4Component } from './resource-4/resource-4.component';
 import { Resource5Component } from './resource-5/resource-5.component';
+import { Resource6Component } from './resource-6/resource-6.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -59,6 +60,7 @@ const routes: Routes = [
   { path: 'resource-3', component: Resource3Component },
   { path: 'resource-4', component: Resource4Component },
   { path: 'resource-5', component: Resource5Component },
+  { path: 'resource-6', component: Resource6Component },
 
 
   {path: '**', component: ErrorComponent, data: 
