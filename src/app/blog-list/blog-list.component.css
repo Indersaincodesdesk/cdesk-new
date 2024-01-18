@@ -4,3 +4,8 @@
 .blogs-section .our_work_all_wrap .blog_cards_wrapper {
    row-gap: 50px;
 }
+@media only screen and (max-width:767px) {
+    .blogs-section {
+        padding: 70px 0 40px;
+    }
+}

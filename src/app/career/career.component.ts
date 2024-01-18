@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./career.component.css']
 })
 export class CareerComponent {
+  name = "Angular";
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
   roundcardConfig = {
     "mobileFirst": true,
     "slidesToShow": 1,

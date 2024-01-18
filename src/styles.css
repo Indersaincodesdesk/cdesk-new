@@ -1098,6 +1098,12 @@ body {
     .slick-dotted.slick-slider {
         margin-bottom: 0px !important;
     }
+    .space-top-p {
+        padding-top: 0px;
+    }
+    .space-top-m {
+        margin-top: 0px;
+    }
     /* service-com-section */
     .service_section {
         padding: 55px 0px;
@@ -2027,8 +2033,7 @@ html {
         padding: 0 20px;
     }
     #service-main.main-title-section {
-        padding: 70px 0px;
-        background: url(../src/assets/image/servicre-inner/service-inner-design-mobile.webp);
+        padding: 70px 0px !important;
     }
     #service-two .container-two {
         max-width: 100%;
@@ -2048,10 +2053,6 @@ html {
         padding: 55px 0px;
     }
     #service-three.service-bacground-section {
-        background: url(../src/assets/image/servicre-inner/service-detail-bacground-mobile.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         min-height: 404px;
         height: auto;
         width: 100%;
