@@ -21,6 +21,18 @@ $(document).ready(function() {
         $(this).toggleClass("on");
         $(".tabcontent").slideToggle();
     });
+    $(document).on('mouseup', function(e) {
+        var popup = $(".on");
+        if (!popup.is(e.target) && popup.has(e.target).length === 0) {
+            $(".tab-heading").removeClass('on');
+            $(".tabcontent").slideUp();
+        }
+    });
+    $(document).on('click', '.menu-item', function() {
+        $("#toggle").removeClass("on");
+        $("#menu").css("display", "none");
+        $('body,html').removeClass("fixed-on-mobile");
+    });
     $(document).on('click', ".service_tab-heading", function() {
         if ($(this).hasClass('active')) {
             $(this).siblings('.service_tabcontent').slideUp();

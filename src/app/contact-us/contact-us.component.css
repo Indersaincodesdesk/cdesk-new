@@ -190,6 +190,9 @@
     .container {
         padding: 0 20px;
     }
+    .our-approach-section {
+        margin: 70px 0 0;
+    }
     .our-approach-section .container .about_cards_wrap .about-cards_wrap .box {
         height: 280px;
     }
