@@ -53,6 +53,13 @@
 .footer_menu_icon_wrap .footer-icon .icon_wrap .icon-list a svg {
     display: block;
 }
+.footer_term_menu .term_menu .term_list:hover a,
+.footer_menu_icon_wrap .footer-menu .menu-wrap .menu-list:hover a {
+    color: #37c8ae;
+}
+.footer_menu_icon_wrap .footer-icon .icon_wrap .icon-list:hover svg path {
+    fill: #37c8ae;
+}
 .footer_menu_icon_wrap .footer-menu .menu-wrap .menu-list a {
     text-decoration: none;
     font-size: 18px;
