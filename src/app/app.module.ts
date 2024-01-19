@@ -44,6 +44,8 @@ import { Resource11Component } from './resource-11/resource-11.component';
 import { Resource12Component } from './resource-12/resource-12.component';
 import { Resource13Component } from './resource-13/resource-13.component';
 import { Resource14Component } from './resource-14/resource-14.component';
+import { InternationalizationComponent } from './internationalization/internationalization.component';
+import { HeadlessComponent } from './headless/headless.component';
 
 @NgModule({
   declarations: [
@@ -87,7 +89,9 @@ import { Resource14Component } from './resource-14/resource-14.component';
     Resource11Component,
     Resource12Component,
     Resource13Component,
-    Resource14Component
+    Resource14Component,
+    InternationalizationComponent,
+    HeadlessComponent
   ],
   imports: [
     BrowserModule,

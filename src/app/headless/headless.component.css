@@ -1,5 +1,5 @@
 #service-main.main-title-section {
-    /* background: url(../../assets/image/servicre-inner/service-inner-design3.webp); */
+    /* background: url(../../assets/image/servicre-inner/service-inner-design7.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,14 +7,8 @@
     position: relative;
     padding: 176.8px 0 87px;
 }
-.c-2-heading.last {
-    margin-bottom: 15px;
-}
-.primery-text {
-    font-family: var(--second-heading);
-}
 #service-three.service-bacground-section {
-    background: url(../../assets/image/servicre-inner/service-detail-bacground3.webp);
+    background: url(../../assets/image/servicre-inner/service-detail-bacground7.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

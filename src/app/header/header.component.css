@@ -8,7 +8,7 @@ header {
 }
 header.sticky {
     position: sticky;
-    top: 0;
+    top: -1px;
     z-index: 9;
     /* background-color: #040A17; */
     background: linear-gradient(108deg, rgb(12, 55, 48) -50%, #000 99.21%);
@@ -103,15 +103,15 @@ header.sticky {
 }
 .dropdown-wrap {
     position: absolute;
-    width: 519px;
-    background: #010C16;
+    width: 600px;
+    background: linear-gradient(108deg, rgb(12, 55, 48) -100%, #000 99.21%);
     top: 88px;
     left: -216px;
-    padding: 20px 38px 38px 46px;
+    padding: 20px 60px 38px 60px;
     display: none;
     border-radius: 0px 0px 10px 10px;
     border-top: 1px solid #37C8AE;
-    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -6px 6px 10px 0px rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 .dropdown-wrap .drop-menu .drop-list {
