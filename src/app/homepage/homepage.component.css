@@ -1,6 +1,6 @@
 .hompage_section_top {
     padding-top: 179px;
-    background: linear-gradient(108deg, rgba(12, 55, 48, 0.50) 0%, #000 99.21%);
+    /* background: linear-gradient(108deg, rgba(12, 55, 48, 0.50) 0%, #000 99.21%); */
 }
 .main_heading_text {
     padding: 0 30px;
@@ -129,6 +129,7 @@
 .partnerships_section {
     width: 100%;
     padding: 91px 30px 100px;
+    
 }
 .partnerships_section .partnerships_all_wrap .partner_title .part_title {
     color: #37C8AE;

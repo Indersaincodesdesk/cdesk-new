@@ -10,7 +10,8 @@ header.sticky {
     position: sticky;
     top: 0;
     z-index: 9;
-    background-color: #040A17;
+    /* background-color: #040A17; */
+    background: linear-gradient(108deg, rgb(12, 55, 48) -50%, #000 99.21%);
     width: 100%;
     transition: all 0.3s ease;
     animation: header-anim .2s ease .027s both;
@@ -62,6 +63,7 @@ header.sticky {
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
 }
 .menu-ul li a.active {
     color: #37C8AE;
