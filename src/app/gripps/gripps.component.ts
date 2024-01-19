@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./gripps.component.css']
 })
 export class GrippsComponent {
-
+  name = "Angular";
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
   caseslider = {
     "slidesToShow": 3,    
     "slidesToScroll": 1,
