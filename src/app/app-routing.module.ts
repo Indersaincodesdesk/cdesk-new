@@ -38,6 +38,8 @@ import { Resource11Component } from './resource-11/resource-11.component';
 import { Resource12Component } from './resource-12/resource-12.component';
 import { Resource13Component } from './resource-13/resource-13.component';
 import { Resource14Component } from './resource-14/resource-14.component';
+import { InternationalizationComponent } from './internationalization/internationalization.component';
+import { HeadlessComponent } from './headless/headless.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -77,6 +79,8 @@ const routes: Routes = [
   { path: 'resource-12', component: Resource12Component },
   { path: 'resource-13', component: Resource13Component },
   { path: 'resource-14', component: Resource14Component },
+  { path: 'internationalization', component: InternationalizationComponent },
+  { path: 'headless', component: HeadlessComponent },
 
 
   {path: '**', component: ErrorComponent, data: 

@@ -457,7 +457,7 @@ body {
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 35px;
     padding-bottom: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -547,9 +547,24 @@ body {
     height: 100%;
     max-height: 53px;
     min-height: unset;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
 }
+.our_work-images_wrap .work-image_four .card-h-txt .logo_card.igluu {
+    max-height: 60px;
+}
+.our_work-images_wrap .work-image_three .card-h-txt .logo_card.protech {
+    max-height: 50px;
+    max-width: 80px;
+}
+.our_work-images_wrap .work-image_one .card-h-txt .logo_card.mresi {
+    max-width: 100px;
+    max-height: 60px;
+}
+.our_work-images_wrap .work-image_three .card-h-txt .logo_card.egyptian {
+    max-width: 300px;
+}
+#case-slider-section .all-case-slider-wrap .case-slider-body .case-slider-wrapper .case-items .card-h-txt .logo_card,
 .our_work-images_wrap .work-image_one .card-h-txt h3.logo_card,
 .our_work-images_wrap .work-image_two .card-h-txt h3.logo_card,
 .our_work-images_wrap .work-image_three .card-h-txt h3.logo_card,
@@ -709,7 +724,7 @@ body {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 35px;
     margin-bottom: 38px;
     text-transform: uppercase;
 }
@@ -1004,6 +1019,10 @@ body {
 .fixed-on-mobile {
     overflow: hidden;
 }
+.our_work_section .our_work_all_wrap .bnt-wrap {
+    text-align: center;
+    margin-top: 50px;
+}
 
 
 @media only screen and (min-width:1025px) and (max-width:1280px) {
@@ -1043,6 +1062,10 @@ body {
     .heading-container {
         width: 100%;
         max-width: 300px;
+    }
+    .our_work_section .our_work_all_wrap .bnt-wrap {
+        text-align: center;
+        margin-top: 50px;
     }
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -1114,6 +1137,25 @@ body {
     .heading-container {
         margin-bottom: 30px;
         position: unset;
+    }
+    /* service */
+    .our_work-images_wrap .work-image_one .card-h-txt,
+    .our_work-images_wrap .work-image_two .card-h-txt,
+    .our_work-images_wrap .work-image_three .card-h-txt,
+    .our_work-images_wrap .work-image_four .card-h-txt {
+        padding: 10px;
+    }
+    .our_work-images_wrap .work-image_one .card-h-txt .bottom_card .card-txt,
+    .our_work-images_wrap .work-image_two .card-h-txt .bottom_card .card-txt,
+    .our_work-images_wrap .work-image_three .card-h-txt .bottom_card .card-txt,
+    .our_work-images_wrap .work-image_four .card-h-txt .bottom_card .card-txt {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+    .our_work_section .our_work_all_wrap .bnt-wrap {
+        text-align: center;
+        margin-top: 50px;
     }
 }
 @media only screen and (max-width:767px) {
@@ -1202,6 +1244,10 @@ body {
         border-bottom: 1px solid #6C757D;
         justify-content: space-between;
         transition: all 0.3s ease;
+    }
+    .service_tab-heading a {
+        text-decoration: none;
+        color: #ADB5BD;
     }
     .service_tab-heading.active {
         font-size: 24px;
@@ -1371,6 +1417,10 @@ body {
         min-height: 450px;
         object-fit: cover;
         border-radius: 10px;
+    }
+    .our_work_section .our_work_all_wrap .bnt-wrap {
+        text-align: center;
+        margin-top: 30px;
     }
     .our_work-images_wrap .work-image_all img.desktop {
         display: none;
@@ -1938,11 +1988,11 @@ html {
     color: #FFF;
     text-align: center;
     font-family: var(--main-heading-font);
-    font-size: 36px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
-    max-width: 620px;
+    max-width: 700px;
     margin: 0 auto;
     margin-bottom: 25px;
 }
@@ -2366,6 +2416,9 @@ html {
     position: absolute;
     top: -100px;
     right: 0;
+}
+#case-slider-section .case-slider-body .case-slider-wrapper .slick-arrow {
+    transform: rotate(180deg);
 }
 #case-slider-section .case-slider-body .case-slider-wrapper .slick-arrow.prev-arrow {
     position: absolute;
