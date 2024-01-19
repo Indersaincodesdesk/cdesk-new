@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./paris-select.component.css']
 })
 export class ParisSelectComponent {
-
+  name = "Angular";
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
   caseslider = {
     "slidesToShow": 3,    
     "slidesToScroll": 1,

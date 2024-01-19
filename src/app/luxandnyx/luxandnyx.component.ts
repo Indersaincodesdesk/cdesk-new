@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./luxandnyx.component.css']
 })
 export class LuxandnyxComponent {
-
+  name = "Angular";
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
   caseslider = {
     "slidesToShow": 3,    
     "slidesToScroll": 1,

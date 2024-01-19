@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./egyptianqueenbeauty.component.css']
 })
 export class EgyptianqueenbeautyComponent {
-
+  name = "Angular";
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
   caseslider = {
     "slidesToShow": 3,    
     "slidesToScroll": 1,

@@ -639,6 +639,7 @@ body {
 .blogs-section .our_work_all_wrap .blog_cards_wrapper {
     column-gap: unset;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-img {
     width: 100%;
@@ -1156,6 +1157,12 @@ body {
     .our_work_section .our_work_all_wrap .bnt-wrap {
         text-align: center;
         margin-top: 50px;
+    }
+    .space-top-p {
+        padding-top: 0px;
+    }
+    .space-top-m {
+        margin-top: 0px;
     }
 }
 @media only screen and (max-width:767px) {
@@ -2238,6 +2245,19 @@ html {
 #main-banner {
     width: 100%;
     height: 100%;
+    position: relative;
+}
+#main-banner img {
+    display: block;
+}
+#main-banner .arrow-down-scroll {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateY(-50px);
+}
+#main-banner .arrow-down-scroll svg {
+    display: block;
 }
 #container {
     padding: 0 30px;
@@ -2491,6 +2511,10 @@ html {
 @media only screen and (max-width:767px) {
     #container {
         padding: 0 20px;
+    }
+    #main-banner .main-banner-image {
+        min-height: 300px;
+        object-fit: cover;
     }
     #title-and-text .service_all_wrap .title-wrap {
         margin: 50px;
