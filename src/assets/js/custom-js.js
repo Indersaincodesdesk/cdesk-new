@@ -44,6 +44,14 @@ $(document).ready(function() {
             $(this).toggleClass('active');
         }
     });
+    $(".list-head").hover(
+        function () {
+          $(this).addClass("result_hover");
+        },
+        function () {
+          $(this).removeClass("result_hover");
+        }
+    );
     // our-work
     $(document).on('click', '.more-work', function() {
         $(this).parent().prev('.more-work-container').slideDown();

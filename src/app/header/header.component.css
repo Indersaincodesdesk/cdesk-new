@@ -149,14 +149,6 @@ header.sticky {
     margin-top: 20px;
     margin-bottom: 25px;
 }
-.dropdown-wrap .megamenu-container .mega-side-left .mega-btn {
-    border-radius: 4px;
-    border: 1px solid #37C8AE;
-    display: inline-flex;
-    padding: 15px 18px 14px 18.3px;
-    justify-content: center;
-    align-items: center;
-}
 .dropdown-wrap .megamenu-container .mega-side-right {
     max-width: 206px;
     width: 100%;

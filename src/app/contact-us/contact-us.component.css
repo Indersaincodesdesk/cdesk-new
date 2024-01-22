@@ -102,21 +102,25 @@
     border: none;
     outline: unset;
 }
-.contact-form-section .contact-form-wrap .contact_form .name-fields-wrap fieldset input:focus + .textfield__label,
 .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap fieldset input:focus + .textfield__label,
+.contact-form-section .contact-form-wrap .contact_form .name-fields-wrap fieldset input:focus + .textfield__label,
 .contact-form-section .contact-form-wrap .contact_form .name-fields-wrap fieldset input:valid + .textfield__label,
 .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap fieldset input:valid + .textfield__label,
 .contact-form-section .contact-form-wrap .contact_form .name-fields-wrap fieldset input:disabled + .textfield__label, 
 .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap fieldset input:disabled + .textfield__label { 
-    display: none;
+    top: 20%;
+    font-size: 12px;
 }
-
 .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap textarea {
     width: 100%;
     border-radius: 5px;
     border: none;
     padding: 15px 0 0 18px;
     min-height: 239px;
+    font-size: 16px;
+    font-family: var(--second-heading);
+    outline: none;
+    resize: none;
 }
 .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap .cdk-contact-btn {
     width: 100%;
