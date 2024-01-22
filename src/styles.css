@@ -462,7 +462,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     padding-top: 60px;
-    max-width: 360px;
+    max-width: 467px;
     text-decoration: none;
 }
 .service_body_wrap .service-body .service-list .list-text {
@@ -486,6 +486,14 @@ body {
     padding-top: 82px;
 }
 .service_body_wrap .service-body .service-list .list-head:hover + .list-text {
+    display: block;
+}
+.service_body_wrap .service-body .service-list .list-head.result_hover {
+    color: #fff;
+    font-size: 32px;
+    padding-top: 82px;
+}
+.service_body_wrap .service-body .service-list .list-head.result_hover + .list-text {
     display: block;
 }
 /* our work */
