@@ -145,4 +145,14 @@ $(document).ready(function() {
             $(".link-wrap .cdk-btn-white").removeClass('activate');
         }
     });
+    // career form
+    $('#fileInput').on('change', updateImageDisplay);
+        function updateImageDisplay() {
+         const curFiles = $('#fileInput')[0].files;
+        const preview = $('.preview');
+        if (curFiles.length !== 0) {
+        preview.text('file attached');
+        preview.css('opacity', 1);
+        }
+    };
 });
