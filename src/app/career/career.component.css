@@ -163,8 +163,7 @@
     padding-top: 5px;
 }
 .career-form-section .form-and-img-wrapper .career-form-wrap .career-form .file-upload .custom-file-input {
-    color: transparent;
-    max-width: 130px;
+    max-width: 250px;
 }
 .career-form-section .form-and-img-wrapper .career-form-wrap .career-form .file-upload .custom-file-input::-webkit-file-upload-button {
     visibility: hidden;
@@ -186,7 +185,8 @@
     font-size: 16px;
     line-height: 21px;
     text-transform: capitalize;
-    margin: 10px 0 25px;
+    /* margin: 10px 0 25px; */
+    margin: 10px -70px 25px 0;
 }
 .career-form-section .form-and-img-wrapper .career-form-wrap .career-form .file-upload label {
     color: #FFF;
@@ -229,7 +229,7 @@
         padding-top: 0px;
     }
     .career-form-section .form-and-img-wrapper .career-form-wrap .career-form .file-upload .custom-file-input::before {
-        margin: 10px 0 15px;
+        margin: 10px -60px 15px 0;
     }
 }
 @media only screen and (min-width:992px) and (max-width:1024px) {
@@ -265,7 +265,7 @@
         padding-top: 0px;
     }
     .career-form-section .form-and-img-wrapper .career-form-wrap .career-form .file-upload .custom-file-input::before {
-        margin: 10px 0 15px;
+        margin: 10px -60px 15px 0;
     }
 }
 @media only screen and (max-width:991px) {
@@ -372,7 +372,7 @@
         padding-top: 0px;
     }
     .career-form-section .form-and-img-wrapper .career-form-wrap .career-form .file-upload .custom-file-input::before {
-        margin: 10px 0 20px;
+        margin: 10px -60px 20px 0;
     }
     .career-form-section .form-and-img-wrapper .career-form-wrap .career-form .cdk-contact-btn {
         height: 50px;

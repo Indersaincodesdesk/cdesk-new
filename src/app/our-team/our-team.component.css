@@ -65,64 +65,75 @@
 .blogs-section .our_work_all_wrap {
     padding: 0;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap {
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper {
+    column-gap: 20px;
     row-gap: 30px;
+    flex-wrap: wrap;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card {
-    width: 100%;
-    max-width: 23.914%;
-    border-radius: 10px;
-    /* border: 1px solid #37C8AE; */
-    perspective: 1000px;
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card {
+    width: 23.84%;
+    height: 450px;
+    perspective: 500px;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member {
-    position: relative;
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .content {
+    position: absolute;
     width: 100%;
     height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: transform 1s;
     transform-style: preserve-3d;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card:hover .card-inner-member {
-    transform: rotateY(180deg);
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .card-member-front {
-    background-color: #010C16;
-    z-index: 1;
-    border: 1px solid #37C8AE;
-    border-radius: 10px;
-}
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back {
-    color: white;
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .front {
+    position: absolute;
     height: 100%;
-    min-height: 450px;
-    transform: rotateY(180deg);
+    width: 100%;
+    background: linear-gradient(208deg, #0C3730 2.62%, #000 100%);
+    color: #fff;
+    text-align: center;
     border-radius: 10px;
+    backface-visibility: hidden;
     border: 1px solid #37C8AE;
-    background: url("../../assets/image/member-card-back.png"),linear-gradient(208deg, #0C3730 2.62%, #000 100%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0px 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back .member-name {
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .front img {
+    display: block;
+}
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .front .member-name {
     color: #FFF;
-    font-family: var(--second-heading);
+    font-family: Rubik;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 40px;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back .designation {
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .front .designation {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    padding-bottom: 57px;
+}
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    border: 1px solid #37C8AE;
+    background: url("../../assets/image/member-card-back.png"),linear-gradient(208deg, #0C3730 2.62%, #000 100%);
+} 
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .back .designation-back {
     color: #37C8AE;
-    font-family: var(--second-heading);
+    font-family: Rubik;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -130,49 +141,27 @@
     text-transform: capitalize;
     margin: 10px 0 20px;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back .discription-member {
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .back .discription-member {
     color: #FFF;
     text-align: center;
-    font-family: var(--second-heading);
+    font-family: Rubik;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .card-member-front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    backface-visibility: hidden;
-}
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card img {
-    display: block;
-}
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card  .card-detail-wrap {
-    padding: 40px 0px 57px;
-    text-align: center;
-}
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card  .card-detail-wrap .member-name {
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .back .member-name {
     color: #FFF;
-    font-family: var(--second-heading);
+    font-family: Rubik;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 10px;
 }
-.blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-detail-wrap .designation {
-    color: #FFF;
-    font-family: var(--second-heading);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    text-transform: capitalize;
+.blogs-section .our_work_all_wrap .all-team-cards-wrapper .card .back {
+    color: white;
+    transform: rotateY( 180deg );
+    padding: 63px 22px;
 }
 /* barrr */
 .professional-team-section {
@@ -312,16 +301,15 @@
         max-width: 210px;
         padding: 26px 10px;
     }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back {
-        min-height: 436px;
-    }
 }
 @media only screen and (max-width:1280px) {
     .ceo-section .ceo-text-image-wraper .ceo-image-wrap {
         padding-right: 160px;
     }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back {
-        min-height: 416px;
+    .blogs-section .our_work_all_wrap .all-team-cards-wrapper .card {
+        width: 32.22%;
+        height: 500px;
+        perspective: 500px;
     }
 }
 @media only screen and (max-width:1024px) {
@@ -368,15 +356,10 @@
         font-size: 14px;
         line-height: 20px;
     }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back .designation {
-        margin: 5px 0 10px;
-    }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back .discription-member {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back {
-        min-height: 364px;
+    .blogs-section .our_work_all_wrap .all-team-cards-wrapper .card {
+        width: 31.9%;
+        height: 450px;
+        perspective: 500px;
     }
 }
 @media only screen and (max-width:991px) {
@@ -406,12 +389,6 @@
     }
     .ceo-section .ceo-text-image-wraper .ceo-text-wrap .main-heading {
         font-size: 50px;
-    }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card {
-        width: 100%;
-        max-width: 32%;
-        border-radius: 10px;
-        /* border: 1px solid #37C8AE; */
     }
     .professional-team-section .professional-team-wrap {
         column-gap: 0;
@@ -443,8 +420,10 @@
         font-size: 16px;
         line-height: 27px;
     }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back {
-        min-height: 360px;
+    .blogs-section .our_work_all_wrap .all-team-cards-wrapper .card {
+        width: 31.4%;
+        height: 340px;
+        perspective: 500px;
     }
 }
 @media only screen and (max-width:767px) {
@@ -466,11 +445,6 @@
     .ceo-section .ceo-text-image-wraper .ceo-text-wrap .primery-text {
         font-size: 16px;
         line-height: 25px;
-    }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card {
-        width: 100%;
-        max-width: 84.62%;
-        margin: 0 auto;
     }
     .hide {
         visibility: hidden;
@@ -501,14 +475,11 @@
         margin-top: 20px;
         margin-bottom: 55px;
     }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back {
-        padding: 60.7px 22px;
-    }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back .designation {
-        margin: 10px 0 20px;
-    }
-    .blogs-section .our_work_all_wrap .out-team-all-wrap .team-member-card .card-inner-member .flip-card-back .discription-member {
-        font-size: 16px;
-        line-height: 27px;
+    .blogs-section .our_work_all_wrap .all-team-cards-wrapper .card {
+        width: 100%;
+        max-width: 330px;
+        margin: 0 auto;
+        height: 450px;
+        perspective: 500px;
     }
 }

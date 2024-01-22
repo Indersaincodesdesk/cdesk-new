@@ -29,6 +29,7 @@
     background: #FFF;
     border: none;
     padding-left: 40px;
+    outline: none;
 }
 .newsletter_input_wrap form .cdk-btn-green {
     border: none;
