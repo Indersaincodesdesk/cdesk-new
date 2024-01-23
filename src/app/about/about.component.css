@@ -85,6 +85,9 @@
 .management_section .management_wrapper .container.flex .text-side .manage_text span {
     color: #37C8AE;
 }
+.about-banner-section .container .about_cards_wrap .about-cards_wrap .box {
+    min-height: 335px;
+}
 .slider_and_text_wrapper .slider-side {
     width: 49%;
 }
@@ -381,6 +384,11 @@
     font-weight: 700;
     line-height: normal;
 }
+@media only screen and (max-width:1366px) {
+    .about-banner-section .container .about_cards_wrap .about-cards_wrap .box {
+        min-height: 364px;
+    }
+}
 @media only screen and (min-width:1280px) and (max-width:1365px) {
     .about_slider_section .slider_and_text_wrapper .slider-text-side .primery-heading {
         margin: 10px 0;
@@ -457,6 +465,9 @@
     }
     .management_section .management_wrapper {
         background: linear-gradient(280deg, rgba(0,0,0,1) 58%, rgba(16,58,58,1) 59%, rgba(8,25,35,1) 60%, rgba(16,58,58,1) 100%);
+    }
+    .about-banner-section .container .about_cards_wrap .about-cards_wrap .box {
+        min-height: 293px;
     }
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -572,6 +583,9 @@
     }
     .management_section .management_wrapper {
         background: linear-gradient(280deg, rgba(0,0,0,1) 54%, rgba(16,58,58,1) 56%, rgba(8,25,35,1) 57%, rgba(16,58,58,1) 100%);
+    }
+    .about-banner-section .container .about_cards_wrap .about-cards_wrap .box {
+        min-height: 325px;
     }
 }
 @media only screen and (max-width:767px) {

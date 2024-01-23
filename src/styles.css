@@ -120,6 +120,7 @@ body {
     padding: 0;
     margin: 0 auto;
 }
+.fixed-on-mobile,
 .overflow-hidden {
     overflow: hidden;
 }
@@ -1023,10 +1024,6 @@ body {
 }
 .hompage_section_top .slider_section_wrapper .slideshow .slick-slider .slick-list.draggable {
     border-radius: 10px !important;
-}
-
-.fixed-on-mobile {
-    overflow: hidden;
 }
 .our_work_section .our_work_all_wrap .bnt-wrap {
     text-align: center;
@@ -1992,9 +1989,9 @@ html {
     width: 100%;
     padding: 114px 0;
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background: url(../src/assets/image/servicre-inner/bg_img_line.webp),linear-gradient(104deg, rgba(12, 55, 48, 0.50) 0%, #000 98.85%);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background: url(../src/assets/image/servicre-inner/bg_img_line1.webp),linear-gradient(104deg, rgba(12, 55, 48, 0.50) 0%, #000 98.85%);
 }
 #service-five.service-inner-slider .service-slider-head {
     width: 100%;
