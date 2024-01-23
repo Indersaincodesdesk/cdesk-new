@@ -128,8 +128,13 @@
 }
 .partnerships_section {
     width: 100%;
-    padding: 91px 30px 100px;
+    padding: 91px 0 100px;
     
+}
+.partnerships_container {
+    padding: 0 30px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .partnerships_section .partnerships_all_wrap .partner_title .part_title {
     color: #37C8AE;
@@ -166,6 +171,9 @@
     display: block;
     width: 100%;
 }
+.our_work_section {
+    margin: 100px 0;
+}
 
 
 @media only screen and (max-width:1280px) {
@@ -180,6 +188,9 @@
 @media only screen and (min-width:992px) and (max-width:1024px) {
     .main-heading {
         font-size: 44px;
+    }
+    .our_work_section {
+        margin: 50px 0;
     }
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -221,6 +232,12 @@
     .partnerships_section .partnerships_all_wrap .partner_title .part_title {
         font-size: 22px;
         line-height: 28px;
+    }
+    .hompage_section_top {
+        padding-top: 90px;
+    }
+    .partnerships_container {
+        padding: 0px;
     }
 }
 @media only screen and (max-width:767px) {
@@ -281,7 +298,11 @@
     }
     .partnerships_section {
         width: 100%;
-        padding: 0px 20px 40px;
+        padding: 40px 20px 40px;
+    }
+    .partnerships_container {
+        padding: 0;
+        max-width: unset;
     }
     .partnerships_section .partnerships_all_wrap {
         flex-direction: column;
