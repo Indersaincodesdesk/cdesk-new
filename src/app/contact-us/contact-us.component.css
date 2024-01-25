@@ -233,6 +233,7 @@
     }
     .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap textarea {
         min-height: 200px;
+        max-height: 200px;
     }
     .contact-form-section .contact-form-wrap .contact_form .name-fields-wrap fieldset input,
     .contact-form-section .contact-form-wrap   .contact_form .other-fields-wrap fieldset input,
