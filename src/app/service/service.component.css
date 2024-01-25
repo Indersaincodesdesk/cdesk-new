@@ -43,6 +43,12 @@
 .get-strat-section .container .cdk-button-wrap {
     max-width: 160px;
 }
+.get-strat-section .strat-image-wrap img.desktop {
+    display: block;
+}
+.our-approach-section .container .about_cards_wrap .about-cards_wrap .box {
+    max-height: 327px;
+}
 
 @media only screen and (min-width:992px) and (max-width:1024px) {
     .our-approach-section .container .about_cards_wrap .about-cards_wrap .card-wrapper .card-text {
@@ -63,6 +69,14 @@
 @media only screen and (max-width:767px) {
     .container {
         padding: 0 20px;
+    }
+    .main-title-section .main-title-wrap .cdk-buttons-wrap {
+        margin-top: 20px;
+    }
+    .main-title-section .main-title-wrap .cdk-buttons-wrap .cdk-btn-green,
+    .main-title-section .main-title-wrap .cdk-buttons-wrap .cdk-btn-white {
+        max-width: 120px;
+        height: 45px;
     }
     .service_section {
         padding: 0px 0px 55px;
@@ -95,5 +109,19 @@
     .get-strat-section .container .cdk-button-wrap .cdk-btn-green {
         width: 120px;
         height: 45px;
+    }
+    .our-approach-section .container .about_cards_wrap .about-cards_wrap .card-wrapper .card-heading {
+        margin-bottom: 24px;
+    }
+    .our-approach-section .container .about_cards_wrap .about-cards_wrap .card-wrapper .card-second-heading {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 12px;
+    }
+    .our-approach-section .container .about_cards_wrap .about-cards_wrap .box .content {
+        padding: 39px 20px 52px;
+    }
+    .get-strat-section .strat-image-wrap img.desktop {
+        display: none;
     }
 }

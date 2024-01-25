@@ -104,7 +104,7 @@
 .career-form-section .form-and-img-wrapper .career-form-wrap {
     width: 100%;
     max-width: 596px;
-    padding: 50px 53px 50px 50px;
+    padding: 49px 52.16px 49px 49.3px;
     border: 1px solid #37c8ae;
     border-radius: 10px;
 }
@@ -174,7 +174,7 @@
     display: inline-block;
     background: #fff;
     border-radius: 20px;
-    padding: 9px 23px 10px 22px;
+    padding: 9px 23.9px 10px 22.7px;
     outline: none;
     border: none;
     white-space: nowrap;
@@ -300,6 +300,11 @@
     .our-approach-section .service-head .service-titel h1.second-heading {
         font-size: 28px;
     }
+    .rounded-cards-wrap .round-cards .round-card-title {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
     .rounded-cards-wrap.mobile {
         max-width: 100%;
         margin-top: 40px;
@@ -355,11 +360,12 @@
         object-fit: cover;
     }
     .career-form-section .form-and-img-wrapper .career-form-wrap {
-        padding: 40px 14px;
+        padding: 39px 13px;
     }
     .career-form-section .form-and-img-wrapper .career-form-wrap .career-form-heading {
         font-size: 22px;
         margin-bottom: 30px;
+        line-height: 26px;
     }
     .career-form-section .form-and-img-wrapper .career-form-wrap .career-form fieldset input {
         height: 50px;

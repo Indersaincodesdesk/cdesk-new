@@ -40,6 +40,9 @@
 .management_section .management_wrapper .container.flex .image_side {
     text-align: center;
 }
+.management_section .management_wrapper .container.flex .image_side img {
+    display: block;
+}   
 .management_section .management_wrapper .container.flex .text-side {
     width: 100%;
     max-width: 737px;
@@ -86,10 +89,11 @@
     color: #37C8AE;
 }
 .about-banner-section .container .about_cards_wrap .about-cards_wrap .box {
-    min-height: 335px;
+    max-height: 327px;
+    min-height: 327px;
 }
 .slider_and_text_wrapper .slider-side {
-    width: 49%;
+    width: 49.22%;
 }
 .image-slide-text {
     position: absolute;
@@ -598,6 +602,9 @@
     .about-banner-section .banner-image-wrap img.mobile {
         display: block;
     }
+    .about-banner-section .container .about_cards_wrap .about-cards_wrap .box {
+        min-height: 276px;
+    }
     .management_section .management_wrapper .container.flex {
         flex-wrap: wrap;
         padding: 24px 20px 53px 20px;
@@ -671,7 +678,7 @@
         font-size: 18px;
     }
     .about_slider_section .slider_and_text_wrapper .slider-text-side .primery-heading {
-        margin: 10px 0;
+        margin: 10px 0 12px;
         font-size: 28px;
     }
     .about_slider_section .slider_and_text_wrapper .slider-text-side .primery-text {
