@@ -73,24 +73,24 @@
                 <h3 class="green-text">REQUEST A QUOTE</h3>
                 <h1 class="second-heading">How May We Help You!</h1>
             </div>
-            <form action="" class="contact_form">
+            <form action="" class="contact_form" autocomplete="noac">
                 <div class="name-fields-wrap flex">
                     <fieldset>
-                        <input class="textfield__input" type="text" name="firstname" id="firstname" required>
+                        <input class="textfield__input" type="text" name="firstname" autocomplete="noac" autofill="off" id="firstname" required>
                         <label class="textfield__label" for="firstname">first Name</label>
                     </fieldset>
                     <fieldset>
-                        <input type="text" name="lastname" id="lastname" required>
+                        <input type="text" name="lastname" id="lastname" autocomplete="noac" autofill="off" required>
                         <label class="textfield__label" for="lastname">last Name</label>
                     </fieldset>
                 </div>
                 <div class="other-fields-wrap flex flex-column">
                    <fieldset>
-                       <input type="email" name="mail" id="mail" required>
+                       <input type="email" name="mail" id="mail" autocomplete="noac" required>
                        <label class="textfield__label" for="mail">Email</label>
                    </fieldset>
                     <fieldset>
-                        <input type="number" name="phone" id="phone" required>
+                        <input type="number" name="phone" id="phone" autocomplete="noac" required>
                         <label class="textfield__label" for="phone">phone number</label>
                     </fieldset>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
