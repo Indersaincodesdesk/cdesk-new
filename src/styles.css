@@ -800,6 +800,7 @@ body {
 .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-img img {
     width: 100%;
     display: block;
+    border-radius: 5px;
 }
 .blogs-section .our_work_all_wrap .blog_cards_wrapper .blog_card_wrap .blog-title-text h3 {
     color: #37C8AE;

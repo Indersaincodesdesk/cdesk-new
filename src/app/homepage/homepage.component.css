@@ -92,34 +92,34 @@
     padding: 0 30px;
 }
 
- @-webkit-keyframes zoomeffect{
-         0%{
-             background-position:center;
-           transform:scale(1,1);
-         }
-         50%{
-             background-position:center;
-           transform:scale(1.5,1.5);
-         }
-         100%{
-             background-position:center;
-           transform:scale(1,1);
-         }
- }
- @keyframes zoomeffect{
-         0%{
-             background-position:center;
-           transform:scale(1,1);
-         }
-         50%{
-             background-position:center;
-           transform:scale(1.5,1.5);
-         }
-         100%{
-             background-position:center;
-           transform:scale(1,1);
-         }
- }
+@-webkit-keyframes zoomeffect{
+    0%{
+        background-position:center;
+        transform:scale(1,1);
+    }
+    50%{
+        background-position:center;
+        transform:scale(1.5,1.5);
+    }
+    100%{
+        background-position:center;
+        transform:scale(1,1);
+    }
+}
+@keyframes zoomeffect{
+    0%{
+        background-position:center;
+        transform:scale(1,1);
+    }
+    50%{
+        background-position:center;
+        transform:scale(1.5,1.5);
+    }
+    100%{
+        background-position:center;
+        transform:scale(1,1);
+    }
+}
 .loop_slider_wrap {
     margin-top: 88px;
     width: 100%;
