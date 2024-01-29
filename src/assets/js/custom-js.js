@@ -17,7 +17,7 @@ $(document).ready(function() {
     $(document).on('click', '#toggle.on', function() {
         $('body,html').removeClass("fixed-on-mobile");
     });
-    $(document).on("click",".tab-heading .tab-icon", function() {
+    $(document).on("click",".tab-heading", function() {
         $(this).toggleClass("on");
         $(".tabcontent").slideToggle();
     });
