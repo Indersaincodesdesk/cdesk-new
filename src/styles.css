@@ -832,6 +832,12 @@ body {
     padding: 0 19px 0 0;
     text-decoration: none;
 }
+.blogs-section .our_work_all_wrap #loadMore {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
 /* about page */
 .main-title-section .main-title-wrap {
     padding: 100px 0;
