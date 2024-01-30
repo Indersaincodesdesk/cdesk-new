@@ -15,7 +15,8 @@ export class AboutComponent {
     "autoplay": true,
     "autoplaySpeed": '2000', 
     "fade": true,
-    "cssEase": 'linear'    
+    "cssEase": 'linear',
+    "pauseOnHover": false,
   };
 
   teamcaseConfig = {

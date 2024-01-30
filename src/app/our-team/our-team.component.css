@@ -197,9 +197,22 @@
     height: 25px;
     border-radius: 5px;
     background: #fff;
+    overflow: hidden;
     position: relative;
 }
-.professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra .barra-nivel {
+.professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra span.persent {
+    height: 100%;
+    display: block;
+    width: 15%;
+    color: #000;
+    line-height: 25px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+    background-color: #37C8AE;
+    font-family: var(--second-heading);
+}
+/* .professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra .barra-nivel {
     height:25px; 
     background:#37C8AE;
     border-radius: 5px;
@@ -212,8 +225,7 @@
     justify-content: flex-end;
     color: #000;
     font-family: var(--second-heading);
-    padding: 0 49px 0 38px;
-}
+} */
 .professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra .barra-title-text {
     position: absolute;
     top: 50%;
@@ -221,6 +233,7 @@
     left: 38px;
     color: #000;
     font-family: var(--second-heading);
+    z-index: 1;
 }
 .professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap:not(:first-child) {
     margin-top: 30px;

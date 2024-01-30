@@ -79,12 +79,14 @@ $(document).ready(function() {
         }
     }, 100);
     // progress bars
-    $('.barra-nivel').each(function() {
-        var valorLargura = $(this).data('nivel');
-        var valorNivel = $(this).html("<span class='valor-nivel'>"+valorLargura+"</span>");
-          $(this).animate({
-              width: valorLargura
-          });
+    $(".barra span.persent").each(function () {
+        $(this).animate(
+          {
+            width: $(this).attr("data-progress") + "%",
+          },
+          1000
+        );
+        $(this).text($(this).attr("data-progress") + "%");
     });
      // counter
      var checkExistcount = setInterval(function() {  
