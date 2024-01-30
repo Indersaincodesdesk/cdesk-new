@@ -41,6 +41,7 @@ header.sticky {
 .logo-wrap {
     width: 100%;
     padding: 23px 0 22px 0;
+    max-width: 220px;
 }
 .logo-wrap a img {
     max-width: 220px;
