@@ -183,6 +183,9 @@
 .our_work_section .our_work_all_wrap .service-head .service-titel h2 {
     font-size: 40px;
 }
+.blogs-section .our_work_all_wrap .service-head .service-text {
+    padding-right: 20px;
+}
 
 
 @media only screen and (max-width:1280px) {
