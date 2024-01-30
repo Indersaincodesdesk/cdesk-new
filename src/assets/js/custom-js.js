@@ -122,20 +122,19 @@ $(document).ready(function() {
                 }
             });
         } 
-        // clearInterval(checkExistcount); 
+    // clearInterval(checkExistcount); 
+    if (isScrolledIntoView(".counter")) {
+        countUp();
+        clearInterval(checkExistcount);
+    }     
+    $(document).scroll(function() {
         if (isScrolledIntoView(".counter")) {
             countUp();
-            clearInterval(checkExistcount); // Clear the interval after the first execution
-        }     
-        $(document).scroll(function() {
-            if (isScrolledIntoView(".counter")) {
-                countUp();
-                clearInterval(checkExistcount); // Clear the interval when the condition is met during scrolling
-            }       
-        });
+            clearInterval(checkExistcount);
+        }       
+    });
     }, 100);
-
-
+    // Blog innder pages share link button
     $(document).on('click', '.link-wrap .cdk-btn-white', function() {
         $(this).addClass('activate');
     });
