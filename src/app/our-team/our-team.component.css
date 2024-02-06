@@ -212,20 +212,6 @@
     background-color: #37C8AE;
     font-family: var(--second-heading);
 }
-/* .professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra .barra-nivel {
-    height:25px; 
-    background:#37C8AE;
-    border-radius: 5px;
-    width:1px;
-    -webkit-transition: width 1s ease;
-    -moz-transition: width 1s ease;
-    transition: width 1s ease;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    color: #000;
-    font-family: var(--second-heading);
-} */
 .professional-team-section .professional-team-wrap .professional-team-text .progress-bars-wrapper .progress-bar-wrap .barra .barra-title-text {
     position: absolute;
     top: 50%;
