@@ -181,7 +181,7 @@
         flex-direction: column;
     }
     .footer-all-wrapper {
-        padding: 26.9px 20px 0px 20px;
+        padding: 46.9px 20px 0px 20px;
     }
     .footer_newsletter_wrap {
         padding: 40px 45px;
@@ -281,6 +281,7 @@
         margin-top: 22px;
         text-align: center;
         padding: 0 20px;
+        padding-bottom: 10px;
     }
     .mobile_copy_text p {
         font-family: var(--second-heading);

@@ -53,6 +53,13 @@ export class AnansipalaceforkidsComponent {
             slidesToShow: 1,
             slidesToScroll: 1,
           }
+        },
+        {
+          breakpoint: 430,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
         }       
       ]
     };

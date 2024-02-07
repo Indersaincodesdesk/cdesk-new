@@ -56,7 +56,7 @@
     font-family: var(--main-heading-font);
     margin: 15px 0 60px;
 }
-/* .contact-form .name-field-wrap {
+.contact-form .name-field-wrap {
     column-gap: 20px;
 }
 .contact-form .name-field-wrap .name-form {
@@ -117,8 +117,8 @@
     font-family: var(--second-heading);
     font-weight: 300;
     line-height: 21px;
-} */
-.contact-form-section .contact-form-wrap .contact_form .name-fields-wrap {
+}
+/* .contact-form-section .contact-form-wrap .contact_form .name-fields-wrap {
     width: 100%;
     column-gap: 24px;
     margin-bottom: 25px;
@@ -170,7 +170,7 @@
 .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap fieldset input:valid + .textfield__label,
 .contact-form-section .contact-form-wrap .contact_form .name-fields-wrap fieldset input:disabled + .textfield__label, 
 .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap fieldset input:disabled + .textfield__label { 
-    top: 20%;
+    top: 25%;
     font-size: 12px;
 }
 .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap textarea {
@@ -208,7 +208,7 @@
     font-weight: 300;
     line-height: 21px;
     text-transform: capitalize;
-}
+} */
 /* location */
 .location-section {
     margin: 200px 0;
@@ -263,7 +263,7 @@
         height: 280px;
     }
     .our-approach-section .container .about_cards_wrap .about-cards_wrap .box .content {
-        padding: 56px 30px 0;
+        padding: 40px 30px 0;
     }
     .our-approach-section .container .about_cards_wrap {
         padding: 40px 0 55px;
@@ -293,7 +293,7 @@
     .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap {
         row-gap: 20px;
     }
-    .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap textarea {
+    /* .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap textarea {
         min-height: 200px;
         max-height: 200px;
     }
@@ -301,15 +301,15 @@
     .contact-form-section .contact-form-wrap   .contact_form .other-fields-wrap fieldset input,
     .contact-form-section .contact-form-wrap .contact_form .other-fields-wrap .cdk-contact-btn {
         height: 50px;
-    }
+    } */
     .location-section {
         margin: 55px 0;
     }
     .location-section .location-wrap iframe {
         max-height: 350px;
     }
-    /* .contact-form .name-field-wrap {
+    .contact-form .name-field-wrap {
         flex-wrap: wrap;
         row-gap: 20px;
-    } */
+    }
 }
