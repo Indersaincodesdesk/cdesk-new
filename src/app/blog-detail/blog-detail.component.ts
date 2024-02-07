@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./blog-detail.component.css']
 })
 export class BlogDetailComponent {
-  shareableUrl: string = "http://localhost:4200/resource"; // Set the URL you want to share
+  shareableUrl: string = "https://codesdesk.co.in/resource"; // Set the URL you want to share
 }

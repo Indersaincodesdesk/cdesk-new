@@ -2146,8 +2146,8 @@ html {
 /* last slider section */
 #service-five.service-inner-slider {
     width: 100%;
-    padding: 114px 0;
-    margin-bottom: 150px;
+    padding: 214px 0;
+    /* margin-bottom: 150px; */
     background-position: center;
     background-size: cover !important;
     background-repeat: no-repeat !important;
