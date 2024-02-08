@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-homepage',
@@ -6,6 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
+  title = 'Codesdesk';
+
+  constructor(
+    private titleServe: Title,
+    private metaServe: Meta
+  ) { 
+   
+  }
+  ngOnInit(): void {
+    this.titleServe.setTitle(this.title);
+    this.metaServe.updateTag({name: 'description', content: "Codesdesk Website"});
+  }
   caseConfig = {
     "slidesToShow": 1,
     "slidesToScroll": 1,
