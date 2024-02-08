@@ -252,12 +252,12 @@ body {
 .w-100 {
     width: 100%;
 }
-.space-top-p {
+/* .space-top-p {
     padding-top: 89.8px;
 }
 .space-top-m {
     margin-top: 89.8px;
-}
+} */
 .margin-auto {
     margin: 0 auto;
 }
@@ -388,9 +388,6 @@ body {
     overflow: hidden;
     cursor: pointer;
 }
-/* .cdk-btn-white:hover {
-    box-shadow: 0px 0px 10px 4px #ffffff;
-} */
 .cdk-btn-transparent {
     width: 160px;
     height: 50px;
