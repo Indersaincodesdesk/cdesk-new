@@ -388,4 +388,11 @@
     .our_work_section .our_work_all_wrap .service-head .service-titel h2 {
         font-size: 28px;
     }
+    .partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos .part_logo img {
+        max-width: 80%;
+    }
+    .partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos {
+        row-gap: 40px;
+        column-gap: 0;
+     }
 }
