@@ -39,7 +39,6 @@
 }
 .footer_menu_icon_wrap {
     justify-content: space-between;
-    padding: 0 30px;
 }
 .footer_menu_icon_wrap .footer-icon .icon_wrap .icon-list,
 .footer_menu_icon_wrap .footer-menu .menu-wrap .menu-list {
@@ -74,7 +73,7 @@
     display: block;
 }
 .footer_last_menu {
-    padding: 112px 30px 0 30px;
+    padding: 112px 0px 0;
 }
 .footer_last_menu .footer_copy_wrap {
     width: 100%;
