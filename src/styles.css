@@ -2953,6 +2953,20 @@ html {
     #case-slider-section .case-slider-body .case-slider-wrapper .slick-arrow.prev-arrow svg {
         width: 12px;
     }
+    #case-slider-section .all-case-slider-wrap .case-slider-body .case-slider-wrapper .case-items:hover .card-h-txt {
+        display: none;
+    }
+    #case-slider-section .all-case-slider-wrap .case-slider-body .case-slider-wrapper .case-items .card-h-txt.mobile {
+        position: unset;
+        display: block;
+        padding: 20px 0 0 0;
+    }
+    #case-slider-section .all-case-slider-wrap .case-slider-body .case-slider-wrapper .case-items:hover::before {
+        opacity: 0;
+    }
+    #case-slider-section .all-case-slider-wrap .case-slider-body .case-slider-wrapper .case-items {
+        text-decoration: none;
+    }
 }
 @media only screen and (max-width: 429px) {
     #case-slider-section .all-case-slider-wrap .case-slider-body .case-slider-wrapper .case-items {
