@@ -186,6 +186,7 @@
     line-height: 25px;
     font-weight: 400;
     font-family: var(--main-heading-font);
+    cursor: pointer;
 }
 .cookies-pop-up .cookie-bottom .read-more-cookie {
     color: #37C8AE;
@@ -318,7 +319,7 @@
         margin-bottom: 20px;
     }
     .mobile .footer_mobile .footer-icon {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .mobile .footer_mobile .footer-icon .icon_wrap .icon-list {
         list-style: none;
