@@ -156,4 +156,34 @@ $(document).ready(function() {
         preview.css('opacity', 1);
         }
     };
+    // cookies
+    const isCookieAccepted = sessionStorage.getItem('eucookie');
+    if (!isCookieAccepted) {
+        $(".cookies-pop-up").delay(1).fadeIn(1000);
+    } else {
+        // If the cookie is already accepted, check if it has expired and delete it if necessary
+        var cookieExpiration = new Date(sessionStorage.getItem('eucookie_expiration'));
+        var thirtyDaysLater = new Date();
+        thirtyDaysLater.setDate(thirtyDaysLater.getDate() - 30);
+
+        if (cookieExpiration < thirtyDaysLater) {
+            // Delete the cookie if 30 days have passed
+            sessionStorage.removeItem('eucookie');
+            sessionStorage.removeItem('eucookie_expiration');
+        }
+    }
+    $(document).on('click', '#cookie-btn', function() {
+        sessionStorage.setItem('eucookie', 'accepted');
+        $('.cookies-pop-up').fadeOut(1000);
+        $('.popup-cookies').fadeOut(1000);
+        var expirationDate = new Date();
+        expirationDate.setDate(expirationDate.getDate() + 30);
+        sessionStorage.setItem('eucookie_expiration', expirationDate.toUTCString());
+    });
+    $(document).on('click','#decline-cookie', function() {
+        $('.popup-cookies').css('display', 'none');
+    });
+    $(document).on('click','.read-more-cookie', function() {
+        $('.popup-cookies').css('display', 'none');
+    });
 });
