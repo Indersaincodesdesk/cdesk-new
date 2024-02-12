@@ -1,5 +1,5 @@
-<header class="">
-    <div class="container">
+<header class=" relative">
+    <div class="container ">
         <div class="main-header-wrap flex">
             <div class="logo-wrap">
                 <a class="menu-item" routerLink="/">
@@ -16,11 +16,11 @@
                     <li>
                         <a routerLinkActive="active" routerLink="/about">About</a>
                     </li>
-                    <li class="dropdown relative">
+                    <li class="dropdown">
                         <a routerLinkActive="active" routerLink="/service">Service</a>
                         <div class="dropdown-wrap">
-                            <div class="megamenu-container flex">
-                                <div class="mega-side-left">
+                            <div class="megamenu-container">
+                                <!-- <div class="mega-side-left">
                                     <div class="mega-img-wrap">
                                         <img src="../../assets/image/mega-menu.webp" alt="mega-menu">
                                     </div>
@@ -28,32 +28,39 @@
                                         <h4 class="megatext">Introduce your business to the future-ready sector of innovators and executors.</h4>
                                     </div>
                                     <a routerLink="/contact" class="cdk-btn-transparent">Let's Connect</a>
-                                </div>
-                                <div class="mega-side-right">
-                                    <h2 class="mega-heading">services</h2>
-                                    <ul class="drop-menu">
-                                        <li class="drop-list">
-                                            <a routerLink="/service-details">UX/UI Design</a>
-                                        </li>
-                                        <li class="drop-list">
-                                            <a routerLink="/shopify-web">shopify Web Development</a>
-                                        </li>
-                                        <li class="drop-list">
-                                            <a routerLink="/strategy&cro">Strategy & CRO Insights</a>
-                                        </li>
-                                        <li class="drop-list">
-                                            <a routerLink="/internationalization">Internationalization</a>
-                                        </li>
-                                        <li class="drop-list">
-                                            <a routerLink="/data-migration">Data Migration</a>
-                                        </li>
-                                        <li class="drop-list">
-                                            <a routerLink="/headless">Headless & Composable Commerce</a>
-                                        </li>
-                                        <li class="drop-list">
-                                            <a routerLink="/shopify-app">Custom Shopify App Development</a>
-                                        </li>
-                                    </ul>
+                                </div> -->
+                                <div class="mega-side-right flex">
+                                   <div class="mega_menu_heading">
+                                        <h2 class="mega-heading">Our services</h2>
+                                        <a class="link" routerLinkActive="active" routerLink="/service"> Read more</a>
+                                   </div>
+                                    <div class="drop-menu">
+                                       <ul>
+                                        <ngx-slick-carousel class="slider" #slickModal="slick-carousel" [config]="mega_menu_slider">
+                                            <li class="drop-list item" ngxSlickItem >
+                                                <a routerLink="/service-details">UX/UI Design</a>
+                                            </li>
+                                            <li class="drop-list item" ngxSlickItem >
+                                                <a routerLink="/shopify-web">shopify Web Development</a>
+                                            </li>
+                                            <li class="drop-list item" ngxSlickItem >
+                                                <a routerLink="/strategy&cro">Strategy & CRO Insights</a>
+                                            </li>
+                                            <li class="drop-list item" ngxSlickItem >
+                                                <a routerLink="/internationalization">Internationalization</a>
+                                            </li>
+                                            <li class="drop-list item" ngxSlickItem >
+                                                <a routerLink="/data-migration">Data Migration</a>
+                                            </li>
+                                            <li class="drop-list item" ngxSlickItem >
+                                                <a routerLink="/headless">Headless & Composable Commerce</a>
+                                            </li>
+                                            <li class="drop-list item" ngxSlickItem >
+                                                <a routerLink="/shopify-app">Custom Shopify App Development</a>
+                                            </li>
+                                            </ngx-slick-carousel>
+                                       </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
