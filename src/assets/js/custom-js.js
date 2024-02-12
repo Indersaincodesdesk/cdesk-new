@@ -186,4 +186,31 @@ $(document).ready(function() {
     $(document).on('click','.read-more-cookie', function() {
         $('.popup-cookies').css('display', 'none');
     });
+
+    // blog search
+    var length = 0;
+    $("#myInput").val('');
+    $(document).on("keyup", "#myInput", function() {
+        var value = $(this).val().toLowerCase();
+        $(".blog_cards_wrapper .blog_card_wrap").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+        var trSel = $(".blog_cards_wrapper .blog_card_wrap:visible")
+        if (trSel.length == 0) {
+            $(".no-records").show();
+        } else {
+            $(".blog_cards_wrapper .blog_card_wrap").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                $(".no-records").hide();
+            });
+        };
+    });
+    $(document).on('click', '.search-input-btn', function() {
+        var searcvalue = $('#myInput').val().toLowerCase();
+        console.log(searcvalue);
+        $('#myInput').val("");
+        $('.no-records').hide();
+        $(".blog_cards_wrapper .blog_card_wrap").show();
+    });
+
 });
