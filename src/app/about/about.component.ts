@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about',
@@ -6,6 +7,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
+  title = 'About Us: Your Trusted Shopify Plus Agency for Shopify theme  Development and Web Designing';
+
+  constructor(
+    private titleServe: Title,
+    private metaServe: Meta
+  ) { 
+   
+  }
+
+  ngOnInit(): void {
+    this.titleServe.setTitle(this.title);
+    this.metaServe.updateTag({name: 'description', content: "Discover the journey of our top-rated Shopify Plus agency. Specialising in app development, web designing, Shopify theme development, and e-commerce websites."});
+  }
+
   caseConfig = {
     "slidesToShow": 1,
     "slidesToScroll": 1,

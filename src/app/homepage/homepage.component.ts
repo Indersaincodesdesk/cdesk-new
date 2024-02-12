@@ -7,7 +7,7 @@ import { Title, Meta } from '@angular/platform-browser';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
-  title = 'Codesdesk';
+  title = 'Codesdesk -Your Premier Shopify Plus Agency | Expert Shopify theme  Development & Web Designing Services';
 
   constructor(
     private titleServe: Title,
@@ -17,7 +17,7 @@ export class HomepageComponent {
   }
   ngOnInit(): void {
     this.titleServe.setTitle(this.title);
-    this.metaServe.updateTag({name: 'description', content: "Codesdesk Website"});
+    this.metaServe.updateTag({name: 'description', content: "Grow your ecommerce business with custom shopify solutions. Our IT company offers app development, web design, and theme building to drive sales. Partner with experts today."});
   }
   caseConfig = {
     "slidesToShow": 1,
