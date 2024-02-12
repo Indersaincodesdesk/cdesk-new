@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./shopify-apps-blog.component.css']
 })
 export class ShopifyAppsBlogComponent {
-  shareableUrl: string = "https://codesdesk.co.in/resource-2"; // Set the URL you want to share
+  shareableUrl: string = "https://codesdesk.co.in/resource/apps-for-streamlining-your-business"; // Set the URL you want to share
 }
