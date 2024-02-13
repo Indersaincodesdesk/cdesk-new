@@ -213,4 +213,21 @@ $(document).ready(function() {
         $(".blog_cards_wrapper .blog_card_wrap").show();
     });
 
+    // blob tabs
+    $(document).on('click', '.blog-filter-tab .filter-tab-wrap .filter-tab-list', function() {
+        $(this).siblings('.filter-tab-list').removeClass('active');
+        $(this).addClass('active');
+        var btnValue = $(this).attr('data-value');
+        console.log(btnValue);
+        if (btnValue == 'all') {
+            $('#blogFilter .blog_card_wrap').fadeIn();
+            $("#loadMore").fadeOut('slow');
+        } else {
+            $('#blogFilter .blog_card_wrap').fadeOut();
+            $('#blogFilter .blog_card_wrap#' + btnValue).slice(0, 12).fadeIn();
+            //console.log(btnValue + '--blog');
+            $("#loadMore").fadeOut('slow');
+        }
+    });
+
 });
