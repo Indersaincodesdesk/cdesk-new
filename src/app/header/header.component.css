@@ -136,8 +136,6 @@ header.sticky {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    white-space: pre-wrap;
     overflow-wrap: break-word;
 }
 .mega-side-right {
@@ -167,10 +165,7 @@ header.sticky {
     margin-top: 20px;
     margin-bottom: 25px;
 }
-/* .dropdown-wrap .megamenu-container .mega-side-right {
-    max-width: 206px;
-    width: 100%;
-} */
+
 .dropdown-wrap .megamenu-container .mega-side-right .mega-heading {
     color: #000;
     font-family: var(--main-heading-font);
@@ -193,7 +188,7 @@ header.sticky {
     background: linear-gradient(90.62deg, #010C16 0%, #0C3730 100%);
 }
 .menu-wrap .mega_menu_heading a {
-    color: #000 ;
+    color: #000 !important;
     padding-top: 15px;
     display: inline-block;
     font-weight: 400;
