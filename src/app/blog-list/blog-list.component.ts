@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class BlogListComponent {
 
+
+  blogList = {
+    "swipe": true,
+    "swipeToSlide": true,
+    "touchMove": true,
+    "dots": false,
+    "arrows": false,
+    "infinite": false,
+    "autoplay": false,
+    "variableWidth": true,
+    responsive: [      
+    ]
+  }; 
+
 }
