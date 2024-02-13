@@ -127,10 +127,13 @@
     padding: 71px 0;
 }
 .loop_slider_wrap .loop_slider div {
-    margin-right: 174.3px;
+    /* margin-right: 174.3px; */
+    margin: 0 87px;
 }
 .loop_slider_wrap .loop_slider div img {
     width: 100%;
+    max-height: 60px;
+    object-fit: cover;
 }
 .partnerships_section {
     width: 100%;
