@@ -14,7 +14,7 @@ export class HeaderComponent {
     "touchMove": true,
       "dots": false,
       "arrows": false,
-      "infinite": true,
+      "infinite": false,
       "autoplay": false,
       "autoplaySpeed": 0,
       "loop": false,
