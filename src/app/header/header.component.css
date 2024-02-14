@@ -44,7 +44,7 @@ header.sticky {
 }
 .menu-ul {
     width: 100%;
-    max-width: 354px;
+    max-width: 410px;
 }
 .menu-ul li {
     list-style: none;
@@ -252,6 +252,9 @@ header.sticky {
         font-weight: 400;
         line-height: 22px;
         text-transform: uppercase;
+    }
+    #menu .menu-ul-mobile li .menu-item.active {
+        color: #37C8AE !important;
     }
     #menu .menu-ul-mobile .dm-service {
         padding: 25px 0px 0;

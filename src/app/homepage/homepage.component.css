@@ -83,9 +83,9 @@
 .slideshow .slider .item img {
     width: 100%;
     max-width: 1146px;
-    -webkit-animation: zoomeffect 10s infinite;
-    -moz-animation: zoomeffect 10s infinite;
-    animation: zoomeffect 10s infinite;
+    -webkit-animation: zoomeffect 6s infinite;
+    -moz-animation: zoomeffect 6s infinite;
+    animation: zoomeffect 6s infinite;
 }
 .slider_section_wrapper {
     width: 100%;
