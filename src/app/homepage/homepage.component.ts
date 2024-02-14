@@ -26,7 +26,7 @@ export class HomepageComponent {
     "arrows": false,
     "infinite": true,
     "autoplay": true,
-    "autoplaySpeed": '8000', 
+    "autoplaySpeed": '4000', 
     "fade": true,
     "cssEase": 'linear'    
   };
