@@ -52,6 +52,13 @@ $(document).ready(function() {
           $(this).removeClass("result_hover");
         }
     );
+    // service menu
+    $(document).on('click', '.service-inner-menu', function() {
+        var $dropMenu = $(this).closest(".drop-menu");
+        $dropMenu.find(".drop-list .service-inner-menu").removeClass("activate");
+        $(this).addClass("activate");
+    });
+    
     // our-work
     $(document).on('click', '.more-work', function() {
         $(this).parent().prev('.more-work-container').slideDown();

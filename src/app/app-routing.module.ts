@@ -86,7 +86,7 @@ const routes: Routes = [
   {path: '**', component: ErrorComponent, data: 
   {
     title: 'Codesdesk',
-    descrption:"COdesdesk"
+    descrption:"Codesdesk"
   }
 }
 ];
