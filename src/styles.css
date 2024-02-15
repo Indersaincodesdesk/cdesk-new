@@ -97,6 +97,13 @@ body {
     background: linear-gradient(108deg, rgb(12, 55, 48) -100%, #000 99.21%);
     color: #fff;
 }
+body.service .dropdown-wrap {
+    display: block;
+}
+.dropdown-wrap .drop-menu .drop-list .service-inner-menu.activate {
+    color: #37C8AE;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -2265,6 +2272,9 @@ html {
 @media only screen and (max-width:991px) {
     #service-two .container-two {
         max-width: 344px;
+    }
+    #service-main.main-title-section {
+        padding: 87px 0 !important;
     }
     #service-two .container-two .all-items-wrapper .unorder-list .unorder-items,
     #service-two .container-two .all-items-wrapper .order-list .order-item {

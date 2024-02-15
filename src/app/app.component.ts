@@ -20,7 +20,7 @@ export class AppComponent {
           if (this.previousUrl) {
             this.renderer.removeClass(document.body, this.previousUrl);
           }
-          let currentUrlSlug = event.url.slice(1)
+          let currentUrlSlug = event.url.slice(1).split('/')[0];
           if (currentUrlSlug) {
             this.renderer.addClass(document.body, currentUrlSlug);
           }

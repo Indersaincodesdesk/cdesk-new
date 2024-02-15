@@ -1,6 +1,9 @@
 .container {
     padding: 0 30px;
 }
+.main-title-section .main-title-wrap {
+    padding: 220px 0 100px;
+}
 .main-title-section .main-title-wrap .cdk-buttons-wrap {
     margin-top: 40px;
 }

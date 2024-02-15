@@ -145,9 +145,10 @@ header.sticky {
     align-items: flex-start;
     justify-content: space-between;
 }
-.menu-wrap .menu-ul .dropdown:hover .dropdown-wrap {
+/* .menu-wrap .menu-ul .dropdown:hover .dropdown-wrap {
     display: block;
-}
+} */
+
 .dropdown-wrap .megamenu-container .mega-side-left .mega-img-wrap img {
     display: block;
 }
