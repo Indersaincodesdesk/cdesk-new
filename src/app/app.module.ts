@@ -46,6 +46,12 @@ import { Resource13Component } from './resource-13/resource-13.component';
 import { Resource14Component } from './resource-14/resource-14.component';
 import { InternationalizationComponent } from './internationalization/internationalization.component';
 import { HeadlessComponent } from './headless/headless.component';
+import { Resource15Component } from './resource-15/resource-15.component';
+import { TanaorjewelryComponent } from './tanaorjewelry/tanaorjewelry.component';
+import { SneakercentralComponent } from './sneakercentral/sneakercentral.component';
+import { ShopbahariComponent } from './shopbahari/shopbahari.component';
+import { RobertolabComponent } from './robertolab/robertolab.component';
+import { RunwayscrubsComponent } from './runwayscrubs/runwayscrubs.component';
 
 @NgModule({
   declarations: [
@@ -91,7 +97,13 @@ import { HeadlessComponent } from './headless/headless.component';
     Resource13Component,
     Resource14Component,
     InternationalizationComponent,
-    HeadlessComponent
+    HeadlessComponent,
+    Resource15Component,
+    TanaorjewelryComponent,
+    SneakercentralComponent,
+    ShopbahariComponent,
+    RobertolabComponent,
+    RunwayscrubsComponent
   ],
   imports: [
     BrowserModule,

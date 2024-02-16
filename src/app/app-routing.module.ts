@@ -40,6 +40,14 @@ import { Resource13Component } from './resource-13/resource-13.component';
 import { Resource14Component } from './resource-14/resource-14.component';
 import { InternationalizationComponent } from './internationalization/internationalization.component';
 import { HeadlessComponent } from './headless/headless.component';
+import { Resource15Component } from './resource-15/resource-15.component';
+import { TanaorjewelryComponent } from './tanaorjewelry/tanaorjewelry.component';
+import { SneakercentralComponent } from './sneakercentral/sneakercentral.component';
+import { ShopbahariComponent } from './shopbahari/shopbahari.component';
+import { RobertolabComponent } from './robertolab/robertolab.component';
+import { RunwayscrubsComponent } from './runwayscrubs/runwayscrubs.component';
+
+
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -79,8 +87,15 @@ const routes: Routes = [
   { path: 'resource/a-reliable-tool-to-calculate-shipping-rates', component: Resource12Component },
   { path: 'resource/the-impact-of-a-countdown-timer-bar-app', component: Resource13Component },
   { path: 'resource/maximising-roi-multi-facebook-pixels', component: Resource14Component },
+  { path: 'resource/the-best-methods-to-send-customer-account-invites-in-shopify-after-migration', component: Resource15Component },
   { path: 'service/internationalization', component: InternationalizationComponent },
   { path: 'service/headless', component: HeadlessComponent },
+  { path: 'our-work/tanaorjewelry', component: TanaorjewelryComponent },
+  { path: 'our-work/sneaker-central', component: SneakercentralComponent },
+  { path: 'our-work/shop-bahari', component: ShopbahariComponent },
+  { path: 'our-work/robertolab', component: RobertolabComponent },
+  { path: 'our-work/runwayscrubs', component: RunwayscrubsComponent },
+  
 
 
   {path: '**', component: ErrorComponent, data: 

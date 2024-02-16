@@ -699,7 +699,9 @@ body.service .dropdown-wrap {
     max-height: 50px;
     max-width: 80px;
 }
-.our_work-images_wrap .work-image_one .card-h-txt .logo_card.mresi {
+.our_work-images_wrap .work-image_two .card-h-txt .logo_card.sneaker,
+.our_work-images_wrap .work-image_one .card-h-txt .logo_card.mresi,
+.our_work-images_wrap .work-image_four .card-h-txt .logo_card.mresi {
     max-width: 100px;
     max-height: 60px;
 }
@@ -1666,6 +1668,8 @@ html {
 }
 #blog-detail-first.blog-detail-section .blog-image-inner-wrap img.desktop {
     display: block;
+    max-height: 700px;
+    object-fit: cover;
 }
 #blog-detail-first.blog-detail-section .blog-image-inner-wrap img.mobile {
     display: none;
@@ -2441,6 +2445,8 @@ html {
 }
 #main-banner img {
     display: block;
+    max-height: 790px;
+    object-fit: cover;
 }
 #main-banner .arrow-down-scroll {
     display: block;
