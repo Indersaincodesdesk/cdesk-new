@@ -178,6 +178,10 @@
 .partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos .part_logo img {
     display: block;
     width: 100%;
+    max-width: 150px;
+}
+.partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos .part_logo.klaviyo img {
+    max-width: 95px;
 }
 .our_work_section {
     margin: 100px 0;
@@ -390,9 +394,6 @@
     }
     .our_work_section .our_work_all_wrap .service-head .service-titel h2 {
         font-size: 28px;
-    }
-    .partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos .part_logo img {
-        max-width: 80%;
     }
     .partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos {
         row-gap: 40px;

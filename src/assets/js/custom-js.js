@@ -12,10 +12,8 @@ $(document).ready(function() {
         $(this).toggleClass("on");
         $("#menu").slideToggle();
         $(this).parent(".container").find('#menu').show();
-        $('body,html').addClass("fixed-on-mobile");
     });
     $(document).on('click', '#toggle.on', function() {
-        $('body,html').removeClass("fixed-on-mobile");
     });
     $(document).on("click",".tab-heading", function() {
         $(this).toggleClass("on");
@@ -52,7 +50,7 @@ $(document).ready(function() {
           $(this).removeClass("result_hover");
         }
     );
-    // service menu
+    // service menu dropdown
     $(document).on('click', '.service-inner-menu', function() {
         var $dropMenu = $(this).closest(".drop-menu");
         $dropMenu.find(".drop-list .service-inner-menu").removeClass("activate");
@@ -85,6 +83,47 @@ $(document).ready(function() {
             clearInterval(checkExist);
         }
     }, 100);
+    // blog search
+    var length = 0;
+    $("#myInput").val('');
+    $(document).on("keyup", "#myInput", function() {
+        var value = $(this).val().toLowerCase();
+        $(".blog_cards_wrapper .blog_card_wrap").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+        var trSel = $(".blog_cards_wrapper .blog_card_wrap:visible")
+        if (trSel.length == 0) {
+            $(".no-records").show();
+        } else {
+            $(".blog_cards_wrapper .blog_card_wrap").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                $(".no-records").hide();
+            });
+        };
+    });
+    $(document).on('click', '.search-input-btn', function() {
+        var searcvalue = $('#myInput').val().toLowerCase();
+        console.log(searcvalue);
+        $('#myInput').val("");
+        $('.no-records').hide();
+        $(".blog_cards_wrapper .blog_card_wrap").show();
+    });
+    // blob tabs
+    $(document).on('click', '.blog-filter-tab .filter-tab-wrap .filter-tab-list', function() {
+        $(this).siblings('.filter-tab-list').removeClass('active');
+        $(this).addClass('active');
+        var btnValue = $(this).attr('data-value');
+        console.log(btnValue);
+        if (btnValue == 'all') {
+            $('#blogFilter .blog_card_wrap').fadeIn();
+            $("#loadMore").fadeOut('slow');
+        } else {
+            $('#blogFilter .blog_card_wrap').fadeOut();
+            $('#blogFilter .blog_card_wrap#' + btnValue).slice(0, 12).fadeIn();
+            //console.log(btnValue + '--blog');
+            $("#loadMore").fadeOut('slow');
+        }
+    });
     // progress bars
     $(".barra span.persent").each(function () {
         $(this).animate(
@@ -194,47 +233,5 @@ $(document).ready(function() {
         $('.popup-cookies').css('display', 'none');
     });
 
-    // blog search
-    var length = 0;
-    $("#myInput").val('');
-    $(document).on("keyup", "#myInput", function() {
-        var value = $(this).val().toLowerCase();
-        $(".blog_cards_wrapper .blog_card_wrap").filter(function() {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
-        var trSel = $(".blog_cards_wrapper .blog_card_wrap:visible")
-        if (trSel.length == 0) {
-            $(".no-records").show();
-        } else {
-            $(".blog_cards_wrapper .blog_card_wrap").filter(function() {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                $(".no-records").hide();
-            });
-        };
-    });
-    $(document).on('click', '.search-input-btn', function() {
-        var searcvalue = $('#myInput').val().toLowerCase();
-        console.log(searcvalue);
-        $('#myInput').val("");
-        $('.no-records').hide();
-        $(".blog_cards_wrapper .blog_card_wrap").show();
-    });
-
-    // blob tabs
-    $(document).on('click', '.blog-filter-tab .filter-tab-wrap .filter-tab-list', function() {
-        $(this).siblings('.filter-tab-list').removeClass('active');
-        $(this).addClass('active');
-        var btnValue = $(this).attr('data-value');
-        console.log(btnValue);
-        if (btnValue == 'all') {
-            $('#blogFilter .blog_card_wrap').fadeIn();
-            $("#loadMore").fadeOut('slow');
-        } else {
-            $('#blogFilter .blog_card_wrap').fadeOut();
-            $('#blogFilter .blog_card_wrap#' + btnValue).slice(0, 12).fadeIn();
-            //console.log(btnValue + '--blog');
-            $("#loadMore").fadeOut('slow');
-        }
-    });
 
 });

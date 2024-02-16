@@ -73,6 +73,9 @@
     .container {
         padding: 0 20px;
     }
+    .main-title-section .main-title-wrap {
+        padding: 70px 0 55px;
+    }
     .main-title-section .main-title-wrap .cdk-buttons-wrap {
         margin-top: 20px;
     }

@@ -1,0 +1,8 @@
+#blog-detail-first.blog-detail-section .blog-image-inner-wrap img.desktop {
+    display: block;
+    min-height: 345px;
+    object-fit: cover;
+}
+#blog-detail-first.blog-detail-section .blog-image-inner-wrap img.mobile {
+    display: none;
+}
