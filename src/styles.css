@@ -1589,6 +1589,7 @@ body.service .dropdown-wrap {
         min-height: 450px;
         object-fit: cover;
         border-radius: 10px;
+        max-height: 450px;
     }
     .our_work_section .our_work_all_wrap .bnt-wrap {
         text-align: center;
