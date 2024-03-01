@@ -52,6 +52,8 @@ import { SneakercentralComponent } from './sneakercentral/sneakercentral.compone
 import { ShopbahariComponent } from './shopbahari/shopbahari.component';
 import { RobertolabComponent } from './robertolab/robertolab.component';
 import { RunwayscrubsComponent } from './runwayscrubs/runwayscrubs.component';
+import { NorthstarcoffeeComponent } from './northstarcoffee/northstarcoffee.component';
+import { KavalacollectiveComponent } from './kavalacollective/kavalacollective.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +105,9 @@ import { RunwayscrubsComponent } from './runwayscrubs/runwayscrubs.component';
     SneakercentralComponent,
     ShopbahariComponent,
     RobertolabComponent,
-    RunwayscrubsComponent
+    RunwayscrubsComponent,
+    NorthstarcoffeeComponent,
+    KavalacollectiveComponent
   ],
   imports: [
     BrowserModule,
