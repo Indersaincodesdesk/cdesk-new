@@ -46,6 +46,8 @@ import { SneakercentralComponent } from './sneakercentral/sneakercentral.compone
 import { ShopbahariComponent } from './shopbahari/shopbahari.component';
 import { RobertolabComponent } from './robertolab/robertolab.component';
 import { RunwayscrubsComponent } from './runwayscrubs/runwayscrubs.component';
+import { NorthstarcoffeeComponent } from './northstarcoffee/northstarcoffee.component';
+import { KavalacollectiveComponent } from './kavalacollective/kavalacollective.component';
 
 
 
@@ -95,6 +97,9 @@ const routes: Routes = [
   { path: 'our-work/shop-bahari', component: ShopbahariComponent },
   { path: 'our-work/robertolab', component: RobertolabComponent },
   { path: 'our-work/runwayscrubs', component: RunwayscrubsComponent },
+  { path: 'our-work/northstarcoffee', component: NorthstarcoffeeComponent },
+  { path: 'our-work/kavala-collective', component: KavalacollectiveComponent },
+  
   
 
 
