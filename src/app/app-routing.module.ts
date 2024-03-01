@@ -48,6 +48,7 @@ import { RobertolabComponent } from './robertolab/robertolab.component';
 import { RunwayscrubsComponent } from './runwayscrubs/runwayscrubs.component';
 import { NorthstarcoffeeComponent } from './northstarcoffee/northstarcoffee.component';
 import { KavalacollectiveComponent } from './kavalacollective/kavalacollective.component';
+import { TaleflickComponent } from './taleflick/taleflick.component';
 
 
 
@@ -99,6 +100,7 @@ const routes: Routes = [
   { path: 'our-work/runwayscrubs', component: RunwayscrubsComponent },
   { path: 'our-work/northstarcoffee', component: NorthstarcoffeeComponent },
   { path: 'our-work/kavala-collective', component: KavalacollectiveComponent },
+  { path: 'our-work/tele-flick', component: TaleflickComponent },
   
   
 
