@@ -672,6 +672,7 @@ body.service .dropdown-wrap {
     display: block;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 .our_work-images_wrap .work-image_two,
 .our_work-images_wrap .work-image_three {

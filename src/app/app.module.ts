@@ -54,6 +54,7 @@ import { RobertolabComponent } from './robertolab/robertolab.component';
 import { RunwayscrubsComponent } from './runwayscrubs/runwayscrubs.component';
 import { NorthstarcoffeeComponent } from './northstarcoffee/northstarcoffee.component';
 import { KavalacollectiveComponent } from './kavalacollective/kavalacollective.component';
+import { TaleflickComponent } from './taleflick/taleflick.component';
 
 @NgModule({
   declarations: [
@@ -107,7 +108,8 @@ import { KavalacollectiveComponent } from './kavalacollective/kavalacollective.c
     RobertolabComponent,
     RunwayscrubsComponent,
     NorthstarcoffeeComponent,
-    KavalacollectiveComponent
+    KavalacollectiveComponent,
+    TaleflickComponent
   ],
   imports: [
     BrowserModule,
