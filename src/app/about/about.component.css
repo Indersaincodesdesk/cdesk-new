@@ -4,7 +4,7 @@
 .main-title-section .main-title-wrap .main-heading {
     text-transform: capitalize;
 }
-.about-banner-section .banner-image-wrap img.desktop,
+.about-banner-section .banner-image-wrap img,
 .about_slider_section .slider_and_text_wrapper .slider-side .image-slider-items .image-slide .image-slide-text .image-slider-bt .svg-button,
 .about_slider_section .slider_and_text_wrapper .slider-side .image-slider-items .image-slide .image-slide-text .image-slider-bt .svg-button svg,
 .about_slider_section .slider_and_text_wrapper .slider-text-side .slider-buttons .call-cdk-wrap .call-icon,
@@ -14,14 +14,7 @@
     display: block;
 }
 .about-banner-section .banner-image-wrap {
-    background: url(../../assets/image/about-banner1.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-clip: border-box;
-    background-origin: border-box;
-    height: 100vh;
+   width: 100%;
 }
 /* about cards */
 /* about cards end */
@@ -581,15 +574,6 @@
 @media only screen and (max-width:767px) {
     .container {
         padding: 0 20px;
-    }
-    .about-banner-section .banner-image-wrap {
-        display: none;
-    }
-    .about-banner-section .banner-image-wrap img.desktop {
-        display: none;
-    }
-    .about-banner-section .banner-image-wrap img.mobile {
-        display: block;
     }
     .about-banner-section .container .about_cards_wrap .about-cards_wrap .box {
         min-height: 276px;
