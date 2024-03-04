@@ -69,21 +69,7 @@
     text-transform: capitalize;
 }
 .management_section .management_wrapper .container.flex .text-side .mange_heading {
-    color: #FFF;
-    font-family: var(--main-heading-font);
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     margin-bottom: 27px;
-}
-.management_section .management_wrapper .container.flex .text-side .manage_text {
-    color: #FFF;
-    font-family: var(--second-heading);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
 }
 .management_section .management_wrapper .container.flex .text-side .manage_text span {
     color: #37C8AE;

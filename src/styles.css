@@ -98,13 +98,6 @@
     --scroll-end: calc(-100% - var(--gap));
 }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --color-text: papayawhip;
-      --color-bg: navy;
-      --color-bg-accent: #2626a0;
-    }
-  }
 body {
     background: linear-gradient(108deg, rgb(12, 55, 48) -100%, #000 99.21%);
     color: #fff;
