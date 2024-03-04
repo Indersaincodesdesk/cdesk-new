@@ -596,6 +596,9 @@
     .container {
         padding: 0 20px;
     }
+    .about-banner-section .banner-image-wrap {
+        display: none;
+    }
     .about-banner-section .banner-image-wrap img.desktop {
         display: none;
     }

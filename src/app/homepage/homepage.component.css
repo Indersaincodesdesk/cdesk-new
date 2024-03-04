@@ -68,8 +68,8 @@
     font-family: var(--second-heading);
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
+    font-weight: 300;
+    line-height: 25px;
 }
 .slideshow {
     width: 100%;
@@ -192,7 +192,7 @@
     padding-right: 20px;
 }
 
-/* loop slider */ 
+/* Main loop slider */ 
 .loop-slider-main-wraper {
     margin: 80px 0 0px 0;
     padding: 60px 0;
@@ -216,7 +216,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 20px;
-    animation: scroll-x 60s linear infinite;
+    animation: scroll-x 120s linear infinite;
 }
 .marquee--reverse .marquee__group {
     animation-direction: reverse;
@@ -237,8 +237,7 @@
     to {
       transform: translateY(var(--scroll-end));
     }
-}  
-  /* Element styles */
+}
 .marquee .svg-wrap-group {
     display: grid;
     place-items: center;
@@ -247,8 +246,7 @@
     background: #0C3730;
     aspect-ratio: 16 / 9;
     border-radius: 0.5rem;
-} 
-  /* Parent wrapper */
+}
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -256,6 +254,7 @@
     margin: auto;
     max-width: 100vw;
 }
+/* Main loop slider end */ 
   
 @media only screen and (max-width:1280px) {
     .partnerships_section .partnerships_all_wrap .partner_all_wrap .partner_bottom_logos {

@@ -164,6 +164,14 @@ body.service .dropdown-wrap {
     font-weight: 300;
     line-height: 27px;
 }
+.p-text {
+    color: #FFF;
+    font-family: var(--second-heading);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+}
 .flex {
     display: flex;
     align-items: center;
@@ -572,17 +580,6 @@ body.service .dropdown-wrap {
 .our-approach-section .service-head .service-text {
     width: 100%;
     max-width: 817px;
-}
-.service_section .service_all_wrap .service-head .service-text p,
-.our_work_section .our_work_all_wrap .service-head .service-text p,
-.blogs-section .our_work_all_wrap .service-head .service-text p,
-.our-approach-section .service-head .service-text p {
-    color: #FFF;
-    font-family: var(--second-heading);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 27px;
 }
 .service_body_wrap .service-body {
     width: 100%;
